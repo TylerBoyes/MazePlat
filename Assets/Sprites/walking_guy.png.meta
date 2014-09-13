@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 806895e684b24a74aa439274958a39ac
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: walking_guy
+    21300002: walking_guy_0
+    21300004: walking_guy_1
+    21300006: walking_guy_2
+    21300008: walking_guy_3
+    21300010: walking_guy_4
+    21300012: walking_guy_5
+    21300014: walking_guy_6
+    21300016: walking_guy_7
+    21300018: walking_guy_8
+    21300020: walking_guy_9
+    21300022: walking_guy_10
+    21300024: walking_guy_11
+    21300026: walking_guy_12
+    21300028: walking_guy_13
+    21300030: walking_guy_14
+    21300032: walking_guy_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: walking_guy_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 186
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 186
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 186
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 186
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 130
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 130
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 130
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 130
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 66
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 66
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 66
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 66
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 5
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_guy_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 5
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
