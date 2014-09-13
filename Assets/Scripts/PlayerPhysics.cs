@@ -128,24 +128,27 @@ public class PlayerPhysics : MonoBehaviour
             ray = new Ray(new Vector2(x, y), new Vector2(0, verticleDirection));
             Debug.DrawRay(ray.origin, ray.direction, Color.white);
 
-            if (Physics.Raycast(ray, out hit, Mathf.Abs(deltaY), collisionMask))
+            if (Mathf.Abs(deltaY) > 0)
             {
-                float distance = Vector2.Distance(ray.origin, hit.point);
+                if (Physics.Raycast(ray, out hit, Mathf.Abs(deltaY), collisionMask))
+                {
+                    float distance = Vector2.Distance(ray.origin, hit.point);
 
-                if (distance > skin)
-                {
-                    deltaY = (distance - (skin / 1.01f)) * verticleDirection;
-                }
-                else
-                {
-                    bool falling = verticleDirection < 0;
-                    if (falling)
-                        grounded = true;
+                    if (distance > skin)
+                    {
+                        deltaY = (distance - (skin / 1.01f)) * verticleDirection;
+                    }
                     else
-                        hitRoof = true;
-                    deltaY = 0;
+                    {
+                        bool falling = verticleDirection < 0;
+                        if (falling)
+                            grounded = true;
+                        else
+                            hitRoof = true;
+                        deltaY = 0;
 
-                    hitVerticle = true; //we dont need to test anymore, lets leave the loop
+                        hitVerticle = true; //we dont need to test anymore, lets leave the loop
+                    }
                 }
             }
         }

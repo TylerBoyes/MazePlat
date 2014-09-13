@@ -41,9 +41,33 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: OnGrass
+    userID: 7
+    uniqueID: 1548355657
+    locked: 0
   - name: Player
     userID: 1
     uniqueID: 3070225533
+    locked: 0
+  - name: OnGrassInFront
+    userID: 8
+    uniqueID: 2385840803
+    locked: 0
+  - name: Trees1
+    userID: 5
+    uniqueID: 317266045
+    locked: 0
+  - name: Trees2
+    userID: 3
+    uniqueID: 3139992361
+    locked: 0
+  - name: Trees3
+    userID: 4
+    uniqueID: 2737261175
+    locked: 0
+  - name: Trees4
+    userID: 6
+    uniqueID: 1468732367
     locked: 0
   - name: InFront
     userID: 2
