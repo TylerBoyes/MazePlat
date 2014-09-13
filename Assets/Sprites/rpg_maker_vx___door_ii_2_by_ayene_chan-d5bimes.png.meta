@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: b01ed23b7375c724ea027a94d7fee037
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes
+    21300002: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_0
+    21300004: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_1
+    21300006: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_2
+    21300008: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_3
+    21300010: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_4
+    21300012: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_5
+    21300014: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_6
+    21300016: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_7
+    21300018: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_8
+    21300020: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_9
+    21300022: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_10
+    21300024: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_11
+    21300026: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_12
+    21300028: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_13
+    21300030: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_14
+    21300032: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_15
+    21300034: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_16
+    21300036: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_17
+    21300038: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_18
+    21300040: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_19
+    21300042: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_20
+    21300044: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_21
+    21300046: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_22
+    21300048: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_23
+    21300050: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_24
+    21300052: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_25
+    21300054: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_26
+    21300056: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_27
+    21300058: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_28
+    21300060: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_29
+    21300062: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_30
+    21300064: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_31
+    21300066: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_32
+    21300068: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_33
+    21300070: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_34
+    21300072: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_35
+    21300074: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_36
+    21300076: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_37
+    21300078: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_38
+    21300080: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_39
+    21300082: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_40
+    21300084: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_41
+    21300086: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_42
+    21300088: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_43
+    21300090: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_44
+    21300092: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_45
+    21300094: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_46
+    21300096: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_47
+    21300098: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_48
+    21300100: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_49
+    21300102: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_50
+    21300104: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_51
+    21300106: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_52
+    21300108: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_53
+    21300110: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_54
+    21300112: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_55
+    21300114: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_56
+    21300116: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_57
+    21300118: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_58
+    21300120: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_59
+    21300122: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_60
+    21300124: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_61
+    21300126: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_62
+    21300128: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_63
+    21300130: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_64
+    21300132: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_65
+    21300134: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_66
+    21300136: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_67
+    21300138: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_68
+    21300140: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_69
+    21300142: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_70
+    21300144: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_71
+    21300146: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_72
+    21300148: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_73
+    21300150: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_74
+    21300152: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_75
+    21300154: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_76
+    21300156: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_77
+    21300158: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_78
+    21300160: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_79
+    21300162: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_80
+    21300164: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_81
+    21300166: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_82
+    21300168: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_83
+    21300170: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_84
+    21300172: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_85
+    21300174: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_86
+    21300176: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_87
+    21300178: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_88
+    21300180: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_89
+    21300182: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_90
+    21300184: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_91
+    21300186: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_92
+    21300188: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_93
+    21300190: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_94
+    21300192: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_95
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_93
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___door_ii_2_by_ayene_chan-d5bimes_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
