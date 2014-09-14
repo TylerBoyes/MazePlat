@@ -31,7 +31,7 @@ public class Teleporter : MonoBehaviour
         {
             Vector2 dest = DestinationDoor.transform.position;
             dest.x += 1;
-            dest.y += 0.15f;
+            dest.y += 0.2f;
 
             if (LeftOf)
                 dest.x -= 2f;

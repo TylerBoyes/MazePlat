@@ -85,13 +85,22 @@ public class PlayerPhysics : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 1, teleporterMask))
         {
             Teleporter teleporter = hit.collider.gameObject.GetComponent<Teleporter>();
-            bool teleport = teleporter.Activate();
-            if (teleport)
+            if (teleporter)
             {
-                playerPosition = teleporter.GetDestination();
-                transform.position = playerPosition;
-                deltaX = 0; deltaY = 0;
-                Teleported = true;
+                bool teleport = teleporter.Activate();
+                if (teleport)
+                {
+                    playerPosition = teleporter.GetDestination();
+                    transform.position = playerPosition;
+                    deltaX = 0; deltaY = 0;
+                    Teleported = true;
+                }
+            }
+            else
+            {
+                SceneDoor sceneDoor = hit.collider.gameObject.GetComponent<SceneDoor>();
+                if (sceneDoor)
+                    sceneDoor.Activate();
             }
         }
         else
