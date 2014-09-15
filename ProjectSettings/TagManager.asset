@@ -37,6 +37,10 @@ TagManager:
   User Layer 30: 
   User Layer 31: 
   m_SortingLayers:
+  - name: BehindGrass
+    userID: 9
+    uniqueID: 754631305
+    locked: 0
   - name: Default
     userID: 0
     uniqueID: 0
@@ -68,6 +72,10 @@ TagManager:
   - name: Trees4
     userID: 6
     uniqueID: 1468732367
+    locked: 0
+  - name: OnTrees
+    userID: 10
+    uniqueID: 2302447017
     locked: 0
   - name: InFront
     userID: 2

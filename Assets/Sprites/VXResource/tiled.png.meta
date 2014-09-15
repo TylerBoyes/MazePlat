@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f3cc27ecbbc829b45ada18cbaf4c2373
+=======
+guid: 31699dcb2b53d064b919341945ef11d6
+>>>>>>> origin/master
 TextureImporter:
   fileIDToRecycleName:
     21300000: tiled

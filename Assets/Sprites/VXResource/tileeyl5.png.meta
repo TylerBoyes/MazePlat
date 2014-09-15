@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 536b84b0d5479af42b58b6acbb6ee0cf
 TextureImporter:
   fileIDToRecycleName:
@@ -244,6 +245,12 @@ TextureImporter:
     21300478: tileeyl5_238
     21300480: tileeyl5_239
     21300482: tileeyl5_240
+=======
+guid: fd5c6b6f789a1e3488c3133b41927a91
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tileeyl5
+>>>>>>> origin/master
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -266,6 +273,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
+<<<<<<< HEAD
     filterMode: 0
     aniso: 1
     mipBias: -1
@@ -274,6 +282,16 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
+=======
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+>>>>>>> origin/master
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -284,6 +302,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+<<<<<<< HEAD
     sprites:
     - name: tileeyl5_0
       rect:
@@ -2695,5 +2714,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+=======
+    sprites: []
+>>>>>>> origin/master
   spritePackingTag: 
   userData: 

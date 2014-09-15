@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d5a8bb031224e78458a037ad1f645c41
+=======
+guid: e8aa8186d545c6a4ca1b09ce41fc1763
+>>>>>>> origin/master
 TextureImporter:
   fileIDToRecycleName:
     21300000: pirate-themed-tilee
