@@ -82,7 +82,7 @@ public class PlayerPhysics : MonoBehaviour
         y = (playerPosition.y + center.y);
         ray = new Ray(new Vector2(x, y - 1), new Vector2(0, 1f));
         Debug.DrawRay(ray.origin, ray.direction, Color.white);
-        if (Physics.Raycast(ray, out hit, 1, teleporterMask))
+        if ((Input.GetAxisRaw("Vertical") != 0 || Input.GetButton("Jump")) && Physics.Raycast(ray, out hit, 1, teleporterMask))
         {
             Teleporter teleporter = hit.collider.gameObject.GetComponent<Teleporter>();
             if (teleporter)
