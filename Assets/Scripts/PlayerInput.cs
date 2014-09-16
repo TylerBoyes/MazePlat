@@ -53,7 +53,7 @@ public class PlayerInput : MonoBehaviour
 
         if (jumpTime <= 0)
         {
-            if (playerPhysics.grounded)
+            if (playerPhysics.grounded && !playerPhysics.onSolidGround)
             {
                 if (Input.GetButton("Jump"))
                 {
