@@ -41,14 +41,13 @@ public class PlayerInput : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         targetSpeed = Vector2.zero;
 
-        float effectiveSpeed = Speed;
-        targetSpeed.x = Input.GetAxisRaw("Horizontal");// *effectiveSpeed;
+        targetSpeed.x = Input.GetAxisRaw("Horizontal");
         if (playerPhysics.onSolidGround)
-            targetSpeed.y = Input.GetAxisRaw("Vertical");// *effectiveSpeed;
+            targetSpeed.y = Input.GetAxisRaw("Vertical");
 
         amountToMove = targetSpeed;
 
@@ -66,16 +65,18 @@ public class PlayerInput : MonoBehaviour
         else
             jumpTime -= Time.deltaTime;
 
-        float effectiveAcceleration = Acceleration;
-
         if (Mathf.Abs(playerPhysics.rigidbody2D.velocity.x) >= Speed)
             amountToMove.x = 0;
         if (Mathf.Abs(playerPhysics.rigidbody2D.velocity.y) >= Speed)
             amountToMove.y = 0;
 
-        playerPhysics.Move(amountToMove * 1000 * Time.deltaTime * effectiveAcceleration);
+        playerPhysics.Move(amountToMove * 1000 * Time.deltaTime * Acceleration);
 
         currentSpeed = playerPhysics.rigidbody2D.velocity;
+    }
+
+    void Update()
+    {
         SetupAnimation();
 
     }
