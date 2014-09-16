@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SceneDoor : MonoBehaviour 
+public class SceneDoor : MonoBehaviour
 {
+    public bool TouchActivated = false;
     public string NextLevel;
     public string Arguments;
     public Vector2 location;

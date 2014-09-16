@@ -5,10 +5,10 @@ using System.Collections;
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerInput : MonoBehaviour
 {
-    public float gravity = 22;
-    public float speed = 8;
-    public float acceleration = 0.5f;
-    public float jumpPower = 12;
+    public float Gravity = 22;
+    public float Speed = 8;
+    public float Acceleration = 0.5f;
+    public float JumpPower = 12;
 
     public float framesPerSecond = 10;
     public Sprite[] walkingUpSprites;
@@ -17,11 +17,13 @@ public class PlayerInput : MonoBehaviour
     public Sprite[] walkingLeftSprites;
     int activeSide = 0;
 
-    Vector2 currentSpeed;
     Vector2 targetSpeed;
+
+    float jumpTime = 0;
 
     float minAnimationSpeed = 0.5f;
 
+    Vector2 currentSpeed;
     Vector2 amountToMove;
     PlayerPhysics playerPhysics;
 
@@ -43,62 +45,37 @@ public class PlayerInput : MonoBehaviour
     {
         targetSpeed = Vector2.zero;
 
-        float effectiveSpeed = speed;
-        targetSpeed.x = Input.GetAxisRaw("Horizontal") * effectiveSpeed;
-        targetSpeed.y = Input.GetAxisRaw("Vertical") * effectiveSpeed;
+        float effectiveSpeed = Speed;
+        targetSpeed.x = Input.GetAxisRaw("Horizontal");// *effectiveSpeed;
+        if (playerPhysics.onSolidGround)
+            targetSpeed.y = Input.GetAxisRaw("Vertical");// *effectiveSpeed;
 
-        if (playerPhysics.hitVerticle)
-        {
-            amountToMove.y = 0;
-        }
+        amountToMove = targetSpeed;
 
-        if (playerPhysics.grounded)
+        if (jumpTime <= 0)
         {
-            if (Input.GetButton("Jump"))
+            if (playerPhysics.grounded)
             {
-                amountToMove.y = jumpPower;
+                if (Input.GetButton("Jump"))
+                {
+                    playerPhysics.Jump(JumpPower);
+                    jumpTime = 0.2f;
+                }
             }
         }
-
-        if (playerPhysics.hitRoof)
-        {
-            amountToMove.y = 0;
-        }
-
-        if (playerPhysics.hitHorizontal)
-        {
-            currentSpeed.x = 0;
-        }
-
-        float effectiveAcceleration = acceleration;
-        if (playerPhysics.onSolidGround)
-            effectiveAcceleration *= 2;
-
-        currentSpeed.x = Mathf.MoveTowards(currentSpeed.x, targetSpeed.x, effectiveAcceleration);
-        currentSpeed.y = Mathf.MoveTowards(currentSpeed.y, targetSpeed.y, effectiveAcceleration);
-
-        amountToMove.x = currentSpeed.x;
-
-        if (!playerPhysics.onSolidGround)
-        {
-            amountToMove.y -= gravity * Time.deltaTime;
-        }
         else
-        {
-            amountToMove.y = currentSpeed.y;
-        }
+            jumpTime -= Time.deltaTime;
 
-        if (playerPhysics.Teleported)
-        {
-            targetSpeed = Vector2.zero;
-            currentSpeed = Vector2.zero;
-            amountToMove = Vector2.zero;
-        }
+        float effectiveAcceleration = Acceleration;
 
-        playerPhysics.Move(amountToMove * Time.deltaTime);
+        if (Mathf.Abs(playerPhysics.rigidbody2D.velocity.x) >= Speed)
+            amountToMove.x = 0;
+        if (Mathf.Abs(playerPhysics.rigidbody2D.velocity.y) >= Speed)
+            amountToMove.y = 0;
 
-        
+        playerPhysics.Move(amountToMove * 1000 * Time.deltaTime * effectiveAcceleration);
 
+        currentSpeed = playerPhysics.rigidbody2D.velocity;
         SetupAnimation();
 
     }

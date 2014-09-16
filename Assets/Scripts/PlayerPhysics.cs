@@ -1,45 +1,44 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(BoxCollider))]
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class PlayerPhysics : MonoBehaviour
 {
     public LayerMask collisionMask;
     public LayerMask groundMask;
     public LayerMask teleporterMask;
 
+    public bool test;
 
     private float skin = 0.005f;
 
     [HideInInspector]
-    public bool grounded;
+    public bool grounded = false;
     [HideInInspector]
-    public bool hitRoof;
-    [HideInInspector]
-    public bool hitHorizontal;
-    [HideInInspector]
-    public bool hitVerticle;
-    [HideInInspector]
-    public bool onSolidGround;
+    public bool onSolidGround = false;
     [HideInInspector]
     public bool Teleported = true;
 
-    private BoxCollider collider;
-    private Vector2 size;
-    private float sizeLength;
-    private Vector2 center;
+    private BoxCollider2D collider;
+    private Rigidbody2D body;
+    Vector2 size;
+    Vector2 center;
 
-    Ray ray;
-    RaycastHit hit;
+    Vector2 forceToApply = Vector2.zero;
+
+    bool jump;
+    float jumpAmount;
+
+    Ray2D ray;
 
     // Use this for initialization
     void Start()
     {
-        collider = GetComponent<BoxCollider>();
-        size = collider.size;
-        sizeLength = size.magnitude;
+        collider = GetComponent<BoxCollider2D>();
+        size = new Vector2(0.31f, 0.48f);// collider.size;
         center = collider.center;
-        onSolidGround = false;
+        body = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -48,44 +47,113 @@ public class PlayerPhysics : MonoBehaviour
 
     }
 
+    void FixedUpdate()
+    {
+        onSolidGround = false;
+
+        LandedDetection(transform.position);
+        FlatMapGroundDetection(transform.position);
+        TeleporterDetection(transform.position);
+
+        if (jump)
+        {
+            body.velocity = new Vector2(body.velocity.x, jumpAmount);
+            jump = false;
+            jumpAmount = 0;
+        }
+        else if (Teleported)
+        {
+            body.velocity = Vector2.zero;
+        }
+        else
+        {
+            body.AddForce(forceToApply);
+        }
+        forceToApply = Vector2.zero;
+
+        //we manually bleed off velocity because we want horizontal friction but not veritcal
+        float frictionX = 0.1f;
+        float frictionY = 0.0f;
+        if (onSolidGround)
+        {
+            frictionX = 0.2f;
+            frictionY = 0.2f;
+        }
+        Vector2 bledVelocity = new Vector2(
+            Mathf.MoveTowards(body.velocity.x, 0, frictionX),
+            Mathf.MoveTowards(body.velocity.y, 0, frictionY));
+        body.velocity = bledVelocity;
+
+        if (onSolidGround)
+            body.gravityScale = 0;
+        else
+            body.gravityScale = 1;
+    }
+
+    public void Jump(float amount)
+    {
+        jump = true;
+        jumpAmount = amount;
+    }
     public void Move(Vector2 moveAmount)
     {
-        float deltaX = moveAmount.x;
-        float deltaY = moveAmount.y;
+        forceToApply = moveAmount;
+        //Vector2 playerPosition = transform.position;
 
-        Vector2 playerPosition = transform.position;
+    }
 
-        grounded = false;
-        hitRoof = false;
-        onSolidGround = false;
-        hitVerticle = false;
+    private void TeleporterDetection(Vector2 playerPosition)
+    {
+        Teleported = false;
 
-        GroundCollision(playerPosition);
-        VerticalCollision(ref deltaY, ref playerPosition);
-        HorizontalCollision(ref deltaX, ref playerPosition);
+        float x = playerPosition.x + center.x; 
+        float y = playerPosition.y + center.y;
 
-        
-        //corner Collision
-        float x = (playerPosition.x + center.x); //left/center/right
-        float y = (playerPosition.y + center.y); //bottom of collider        
-        Vector2 delta = new Vector2(deltaX, deltaY);
-        ray = new Ray(new Vector2(x, y), delta);
-        Debug.DrawRay(ray.origin, ray.direction, Color.white);
-        if (Physics.Raycast(ray, out hit, size.x/2, collisionMask))
+        float distance = 0.3f;// + Mathf.Max(0, body.velocity.magnitude - 1);
+        ray = new Ray2D(new Vector2(x, y-size.y), new Vector2(0, 1));
+
+        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction,
+            distance, teleporterMask);
+
+        if (hit.collider == null)
         {
-            deltaX = 0;
-            deltaY = 0;
+            Debug.DrawRay(ray.origin, ray.direction, Color.yellow);
+        }
+        else
+        {
+            Debug.DrawRay(ray.origin, ray.direction, Color.green);
+
+            Teleporter teleporter = hit.collider.gameObject.GetComponent<Teleporter>();
+            bool pressing = Input.GetAxis("Vertical") != 0;
+
+            if (teleporter != null && pressing)
+            {
+                bool teleport = teleporter.Activate();
+                if (teleport)
+                {
+                    playerPosition = teleporter.GetDestination();
+                    transform.position = playerPosition;
+                    Teleported = true;
+                }
+            }
+            else
+            {
+                SceneDoor sceneDoor = hit.collider.gameObject.GetComponent<SceneDoor>();
+                if (sceneDoor && (pressing || sceneDoor.TouchActivated))
+                    sceneDoor.Activate();
+            }
         }
 
-        //groundCollision
-        x = (playerPosition.x + center.x);
-        y = (playerPosition.y + center.y);
+        /*
+        float x = (playerPosition.x + center.x);
+        float y = (playerPosition.y + center.y);
         ray = new Ray(new Vector2(x, y - 1), new Vector2(0, 1f));
         Debug.DrawRay(ray.origin, ray.direction, Color.white);
-        if ((Input.GetAxisRaw("Vertical") != 0 || Input.GetButton("Jump")) && Physics.Raycast(ray, out hit, 1, teleporterMask))
+        if (Physics.Raycast(ray, out hit, 1, teleporterMask))
         {
+            bool pressing = (Input.GetAxisRaw("Vertical") != 0 || Input.GetButton("Jump"));
             Teleporter teleporter = hit.collider.gameObject.GetComponent<Teleporter>();
-            if (teleporter)
+            if (teleporter && pressing)
             {
                 bool teleport = teleporter.Activate();
                 if (teleport)
@@ -99,91 +167,56 @@ public class PlayerPhysics : MonoBehaviour
             else
             {
                 SceneDoor sceneDoor = hit.collider.gameObject.GetComponent<SceneDoor>();
-                if (sceneDoor)
+                if (sceneDoor && (pressing || sceneDoor.TouchActivated))
                     sceneDoor.Activate();
             }
         }
         else
             Teleported = false;
-
-        Vector2 finalTransform = new Vector2(deltaX, deltaY);
-        transform.Translate(finalTransform);
+         */
     }
 
-    private void GroundCollision(Vector2 playerPosition)
+    private void FlatMapGroundDetection(Vector2 playerPosition)
     {
         //groundCollision
         float x = (playerPosition.x + center.x);
         float y = (playerPosition.y + center.y) - 1; //minus 1 block
-        ray = new Ray(new Vector2(x, y), new Vector2(0, 1f));
-        Debug.DrawRay(ray.origin, ray.direction, Color.white);
-        if (Physics.Raycast(ray, out hit, 1.05f, groundMask))
+        ray = new Ray2D(new Vector2(x, y), new Vector2(0, 1f));
+        
+        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, 1.05f, groundMask);
+        if (hit.collider != null)
         {
+            Debug.DrawRay(ray.origin, ray.direction, Color.green);
             onSolidGround = true;
         }
-    }
-
-    private void VerticalCollision(ref float deltaY, ref Vector2 playerPosition)
-    {
-        float x, y;
-        float verticleDirection = Mathf.Sign(deltaY);
-
-        //verticle collision
-        for (int i = 0; i < 3 && !hitVerticle; i++)
+        else
         {
-            x = (playerPosition.x + center.x - size.x / 2f) + size.x / 2f * i; //left/center/right
-            y = playerPosition.y + center.y + size.y / 2f * verticleDirection; //bottom of collider
-
-            ray = new Ray(new Vector2(x, y), new Vector2(0, verticleDirection));
-            Debug.DrawRay(ray.origin, ray.direction, Color.white);
-
-            if (Mathf.Abs(deltaY) > 0)
-            {
-                if (Physics.Raycast(ray, out hit, Mathf.Abs(deltaY), collisionMask))
-                {
-                    float distance = Vector2.Distance(ray.origin, hit.point);
-
-                    if (distance > skin)
-                    {
-                        deltaY = (distance - (skin / 1.01f)) * verticleDirection;
-                    }
-                    else
-                    {
-                        bool falling = verticleDirection < 0;
-                        if (falling)
-                            grounded = true;
-                        else
-                            hitRoof = true;
-                        deltaY = 0;
-
-                        hitVerticle = true; //we dont need to test anymore, lets leave the loop
-                    }
-                }
-            }
+            Debug.DrawRay(ray.origin, ray.direction, Color.blue);
         }
     }
 
-    private void HorizontalCollision(ref float deltaX, ref Vector2 playerPosition)
+    private void LandedDetection(Vector2 playerPosition)
     {
-        float x, y;
-
-        float horizontalDirection = Mathf.Sign(deltaX);
-        hitHorizontal = false;
-        // horizontal collision
-        for (int i = 0; i < 3 && !hitHorizontal; i++)
+        grounded = false;
+        for (int i = 0; i < 3; i++)
         {
-            float collisionSize = size.y / 1.005f;
-            x = playerPosition.x + center.x + size.x / 2f * horizontalDirection; //side of collider
-            y = (playerPosition.y + center.y - collisionSize / 2f) + collisionSize / 2f * i;
+            float x = playerPosition.x + center.x - size.x + (size.x)*i; //left/center/right
+            float y = playerPosition.y + center.y - size.y - 0.15f; //bottom of collider
 
-            ray = new Ray(new Vector2(x, y), new Vector2(horizontalDirection, 0));
+            float distance = 0.2f;
+            ray = new Ray2D(new Vector2(x, y), new Vector2(0, -1 * distance));
 
-            float distance = Mathf.Abs(deltaX);
-            if (distance != 0 && Physics.Raycast(ray, out hit, distance, collisionMask))
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction,
+                distance, collisionMask);
+
+            if (hit.collider == null)
             {
-                Debug.DrawRay(ray.origin, ray.direction, Color.white);
-                hitHorizontal = true;
-                deltaX = 0;
+                Debug.DrawRay(ray.origin, ray.direction, Color.blue);
+            }
+            else
+            {
+                grounded = true;
+                Debug.DrawRay(ray.origin, ray.direction, Color.red);
             }
         }
     }

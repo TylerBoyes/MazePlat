@@ -10,6 +10,7 @@ public class LevelLoader : MonoBehaviour
         if (GameWideVariables.arguments == "SpawnAt")
         {
             player.transform.position = GameWideVariables.location;
+            player.rigidbody2D.position = GameWideVariables.location;
         }
 
         GameWideVariables.arguments = "";
