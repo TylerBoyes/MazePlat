@@ -3,10 +3,11 @@ using System.Collections;
 
 public class LevelLoader : MonoBehaviour 
 {
-    public GameObject player; //It needs the player!
+    GameObject player; //It needs the player!
 	// Use this for initialization
 	void Start () 
     {
+        player = gameObject;
         if (GameWideVariables.arguments == "SpawnAt")
         {
             player.transform.position = GameWideVariables.location;
