@@ -1,32 +1,51 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Pickup : MonoBehaviour 
+public class Pickup : MonoBehaviour
 {
-    public LayerMask collisionMask;
-    SpriteRenderer renderer;
-    BoxCollider collider;
+    public string message = "AddItem";
+    public string Item = "";
 
-    Vector2 position;
-    Ray2D ray;
+    string hashKey;
 
 	// Use this for initialization
 	void Start () 
     {
-        position = Vector2.zero;
-        ray = new Ray2D(Vector2.zero, new Vector2(0, 1f));
-        renderer = GetComponent<SpriteRenderer>();
-        collider = GetComponent<BoxCollider>();
+        hashKey = Application.loadedLevelName + Item + transform.position;
+
+        object value = GameState.Instance.GetValue(hashKey);
+        if (value != null)
+        {
+            if ((bool)value)
+            {
+                DestroyObject(gameObject);
+            }
+        }
+        else
+        {
+            GameState.Instance.AddObject(hashKey, false);
+        }
 	}
 
     void Activate()
     {
-        audio.Play();
-        Destroy(renderer);
-        Destroy(this);
-       // Destroy(gameObject);
+        GameState.Instance.Replace(hashKey, true);
+
+        if (audio)
+            audio.Play();
+        GetComponent<SpriteRenderer>().enabled = false;
+        DestroyObject(GetComponent<BoxCollider2D>());
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            other.gameObject.SendMessage(message, this);
+            Activate();
+        }
+    }
+    /*
 	// Update is called once per frame
 	void Update () 
     {
@@ -44,4 +63,5 @@ public class Pickup : MonoBehaviour
         else
             Debug.DrawRay(ray.origin, ray.direction, Color.yellow);
 	}
+     */
 }

@@ -140,7 +140,7 @@ public class PlayerPhysics : MonoBehaviour
             {
                 SceneDoor sceneDoor = hit.collider.gameObject.GetComponent<SceneDoor>();
                 if (sceneDoor && (pressing || sceneDoor.TouchActivated))
-                    sceneDoor.Activate();
+                    sceneDoor.Activate(gameObject);
             }
         }
 
