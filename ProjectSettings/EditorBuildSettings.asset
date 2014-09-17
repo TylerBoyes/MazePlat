@@ -17,3 +17,13 @@ EditorBuildSettings:
     path: Assets/Level4.unity
   - enabled: 1
     path: Assets/Level4b.unity
+  - enabled: 1
+    path: Assets/KeyTest.unity
+  - enabled: 1
+    path: Assets/KeyTest-b.unity
+  - enabled: 1
+    path: Assets/KeyTest-c.unity
+  - enabled: 1
+    path: Assets/KeyTest-d.unity
+  - enabled: 1
+    path: Assets/KeyTest-e.unity

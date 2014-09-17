@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(PlayerPhysics))]
 [RequireComponent(typeof(SpriteRenderer))]
@@ -17,6 +18,8 @@ public class PlayerInput : MonoBehaviour
     public Sprite[] walkingLeftSprites;
     int activeSide = 0;
 
+    public int items = 0;
+
     Vector2 targetSpeed;
 
     float jumpTime = 0;
@@ -28,10 +31,32 @@ public class PlayerInput : MonoBehaviour
     PlayerPhysics playerPhysics;
 
     SpriteRenderer spriteRenderer;
+    List<Pickup> inventory;
+    string hashKey;
+
+    public List<Pickup> Inventory
+    {
+        get { return inventory; }
+    }
 
     // Use this for initialization
     void Start()
     {
+        hashKey = "PlayerInventory";
+
+        object value = GameState.Instance.GetValue(hashKey);
+        if (value != null)
+        {
+            inventory = (List<Pickup>)value;
+        }
+        else
+        {
+            inventory = new List<Pickup>();
+            GameState.Instance.AddObject(hashKey, inventory);
+        }
+
+
+
         playerPhysics = GetComponent<PlayerPhysics>();
 
         spriteRenderer = renderer as SpriteRenderer;// GetComponent<SpriteRenderer>();
@@ -78,7 +103,38 @@ public class PlayerInput : MonoBehaviour
     void Update()
     {
         SetupAnimation();
+    }
 
+    public void AddItem(object item)
+    {
+        items++;
+
+        if (typeof(Pickup) == item.GetType())
+        {
+            Pickup pickup = (Pickup)item;
+            DontDestroyOnLoad(pickup.gameObject);
+            inventory.Add(pickup);
+        }
+    }
+
+    public bool UseItem(string item)
+    {
+        Pickup usedItem = null;
+        foreach (Pickup pickup in Inventory)
+        {
+            if (pickup.Item == item)
+            {
+                usedItem = pickup;
+                break;
+            }
+        }
+        if (usedItem != null)
+        {
+            inventory.Remove(usedItem);
+            DestroyObject(usedItem.gameObject);
+            return true;
+        }
+        return false;
     }
 
     void SetupAnimation()
