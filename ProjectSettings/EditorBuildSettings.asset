@@ -20,6 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/StoneDungeon-c.unity
   - enabled: 1
+    path: Assets/StoneDungeon-d.unity
+  - enabled: 1
     path: Assets/Level4.unity
   - enabled: 1
     path: Assets/Level4b.unity

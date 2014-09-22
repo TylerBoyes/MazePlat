@@ -139,39 +139,39 @@ public class PlayerInput : MonoBehaviour
 
     void SetupAnimation()
     {
-        bool animationActive = playerPhysics.onSolidGround || playerPhysics.grounded;
+        bool animationActive = playerPhysics.onSolidGround || playerPhysics.grounded; //so basically if the player isn:t jumping or falling
         if (!animationActive)
             return;
 
-        if (currentSpeed.x > minAnimationSpeed)
+        if (currentSpeed.x > minAnimationSpeed) //if the player is moving to the right
         {
             int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
             index = index % walkingUpSprites.Length;
             spriteRenderer.sprite = walkingRightSprites[index];
             activeSide = 2;
         }
-        else if (-currentSpeed.x > minAnimationSpeed)
+        else if (-currentSpeed.x > minAnimationSpeed) // if the player is moving to the left
         {
             int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
             index = index % walkingUpSprites.Length;
             spriteRenderer.sprite = walkingLeftSprites[index];
             activeSide = 3;
         }
-        else if (currentSpeed.y > minAnimationSpeed)
+        else if (currentSpeed.y > minAnimationSpeed) // if the player is moving up
         {
             int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
             index = index % walkingUpSprites.Length;
             spriteRenderer.sprite = walkingUpSprites[index];
             activeSide = 1;
         }
-        else if (-currentSpeed.y > minAnimationSpeed)
+        else if (-currentSpeed.y > minAnimationSpeed) //if the player is moving down
         {
             int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
             index = index % walkingUpSprites.Length;
             spriteRenderer.sprite = walkingDownSprites[index];
             activeSide = 0;
         }
-        else
+        else // if the player is not moving, show the first frame of the animation. its the resting frame
         {
             switch (activeSide)
             {
