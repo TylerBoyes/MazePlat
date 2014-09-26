@@ -53,7 +53,7 @@ public class SceneDoor : MonoBehaviour
                 return;
             unlocked = true;
             DestroyObject(lockObject);
-            GameState.Instance.Replace(hashKey, true);
+            GameState.Instance.Replace(hashKey, true);  
         }
 
         GameWideVariables.arguments = Arguments;
