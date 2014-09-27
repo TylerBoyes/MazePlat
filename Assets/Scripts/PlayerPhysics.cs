@@ -9,7 +9,11 @@ public class PlayerPhysics : MonoBehaviour
     public LayerMask groundMask;
     public LayerMask teleporterMask;
 
-    public bool test;
+    public EdgeCollider2D topEdge;
+    public EdgeCollider2D rightEdge;
+    public EdgeCollider2D leftEdge;
+
+    public bool HalfHeight = false;
 
     private float skin = 0.005f;
 
@@ -39,6 +43,42 @@ public class PlayerPhysics : MonoBehaviour
         size = new Vector2(0.31f, 0.48f);// collider.size;
         center = collider.center;
         body = GetComponent<Rigidbody2D>();
+
+        if (HalfHeight)
+        {
+            Vector2[] newPoints = new Vector2[topEdge.points.Length];
+            for (int i = 0; i < topEdge.points.Length; i++)
+            {
+                newPoints[i] = new Vector2(topEdge.points[i].x, topEdge.points[i].y - 0.25f);
+            }
+            topEdge.points = newPoints;
+            
+            leftEdge.points = LowerTopPoint(leftEdge.points, 0.25f);
+            rightEdge.points = LowerTopPoint(rightEdge.points, 0.25f);
+            
+        }
+    }
+
+    Vector2[] LowerTopPoint(Vector2[] points, float amount)
+    {
+        Vector2[] newPoints = new Vector2[points.Length];
+        int topPoint = 0;
+        float topY = -10;
+        //copy points, while finding top point
+        for (int i = 0; i < points.Length; i++)
+        {
+            if (points[i].y > topY)
+            {
+                topY = points[i].y;
+                topPoint = i;
+            }
+            newPoints[i] = new Vector2(points[i].x, points[i].y);
+        }
+
+        //lower top point
+        newPoints[topPoint] = new Vector2(newPoints[topPoint].x, newPoints[topPoint].y - amount);
+
+        return newPoints;
     }
 
     // Update is called once per frame

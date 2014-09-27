@@ -5,8 +5,8 @@ public class SceneDoor : MonoBehaviour
 {
     public string LockType = "Lock";
     public string RequiredKey = "";
-    public bool TouchActivated = false;
     public string NextLevel;
+    public bool TouchActivated = false;
     public string Arguments;
     public Vector2 location;
     public Color LockColour = Color.white;
@@ -53,7 +53,7 @@ public class SceneDoor : MonoBehaviour
                 return;
             unlocked = true;
             DestroyObject(lockObject);
-            GameState.Instance.Replace(hashKey, true);
+            GameState.Instance.Replace(hashKey, true);  
         }
 
         GameWideVariables.arguments = Arguments;

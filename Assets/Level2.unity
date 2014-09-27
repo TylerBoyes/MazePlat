@@ -653,7 +653,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: .0196078438}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -683,7 +683,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 14079460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.51748025, y: 14.5509911, z: -10}
+  m_LocalPosition: {x: -6.7986598, y: .389603972, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1864,9 +1864,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43c20fdfe639f84d8befe4a71e0029d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionMask:
-    serializedVersion: 2
-    m_Bits: 4194304
+  message: AddItem
+  Item: 
 --- !u!82 &43417269
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1946,7 +1945,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &43417271
@@ -2918,7 +2917,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 861b09aadfc210240be48d70c94210a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1816110776}
 --- !u!4 &83076599
 Transform:
   m_ObjectHideFlags: 0
@@ -5266,9 +5264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43c20fdfe639f84d8befe4a71e0029d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionMask:
-    serializedVersion: 2
-    m_Bits: 4194304
+  message: AddItem
+  Item: 
 --- !u!82 &156081309
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24294,9 +24291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43c20fdfe639f84d8befe4a71e0029d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionMask:
-    serializedVersion: 2
-    m_Bits: 4194304
+  message: AddItem
+  Item: 
 --- !u!82 &853748965
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24376,7 +24372,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &853748967
@@ -31242,9 +31238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43c20fdfe639f84d8befe4a71e0029d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionMask:
-    serializedVersion: 2
-    m_Bits: 4194304
+  message: AddItem
+  Item: 
 --- !u!82 &1124039001
 AudioSource:
   m_ObjectHideFlags: 0
@@ -31324,7 +31319,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1124039003
@@ -34003,11 +33998,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 0a6dc394bdf36b648ad86948bee01489, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.62227917
+      value: -6.60309267
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a6dc394bdf36b648ad86948bee01489, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.49101639
+      value: .288559079
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a6dc394bdf36b648ad86948bee01489, type: 2}
       propertyPath: m_LocalPosition.z
@@ -49254,9 +49249,10 @@ GameObject:
   - 68: {fileID: 1816110785}
   - 68: {fileID: 1816110784}
   - 68: {fileID: 1816110783}
+  - 114: {fileID: 1816110787}
   m_Layer: 22
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49271,8 +49267,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: da9b4b4f84ad4bb4ca8063652726c1b4, type: 2}
   m_IsTrigger: 1
-  m_Size: {x: .306944519, y: .480000049}
-  m_Center: {x: -.00152828137, y: 0}
+  m_Size: {x: .239999995, y: .400000006}
+  m_Center: {x: 0, y: 0}
 --- !u!50 &1816110778
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -49326,6 +49322,7 @@ MonoBehaviour:
   - {fileID: 21300012, guid: 806895e684b24a74aa439274958a39ac, type: 3}
   - {fileID: 21300014, guid: 806895e684b24a74aa439274958a39ac, type: 3}
   - {fileID: 21300016, guid: 806895e684b24a74aa439274958a39ac, type: 3}
+  items: 0
 --- !u!114 &1816110780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49347,7 +49344,10 @@ MonoBehaviour:
   teleporterMask:
     serializedVersion: 2
     m_Bits: 1024
-  test: 0
+  topEdge: {fileID: 1816110783}
+  rightEdge: {fileID: 1816110786}
+  leftEdge: {fileID: 1816110785}
+  HalfHeight: 0
   grounded: 0
   onSolidGround: 0
   Teleported: 1
@@ -49381,7 +49381,7 @@ Transform:
   m_PrefabInternal: {fileID: 1234564818}
   m_GameObject: {fileID: 1816110776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.62227917, y: -1.49101639, z: 0}
+  m_LocalPosition: {x: -6.60309267, y: .288559079, z: 0}
   m_LocalScale: {x: 2.61026525, y: 2.61026549, z: 2.38442588}
   m_Children: []
   m_Father: {fileID: 0}
@@ -49438,6 +49438,18 @@ EdgeCollider2D:
   m_Points:
   - {x: .152105093, y: .211796969}
   - {x: .15411748, y: -.226799145}
+--- !u!114 &1816110787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 0a6dc394bdf36b648ad86948bee01489,
+    type: 2}
+  m_PrefabInternal: {fileID: 1234564818}
+  m_GameObject: {fileID: 1816110776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861b09aadfc210240be48d70c94210a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1820939659
 GameObject:
   m_ObjectHideFlags: 0
@@ -55484,9 +55496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43c20fdfe639f84d8befe4a71e0029d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionMask:
-    serializedVersion: 2
-    m_Bits: 4194304
+  message: AddItem
+  Item: 
 --- !u!82 &2025155296
 AudioSource:
   m_ObjectHideFlags: 0
@@ -55566,7 +55577,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &2025155298
@@ -57544,10 +57555,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 467feff987149994fab90389582327f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LockType: Lock
+  RequiredKey: 
   TouchActivated: 0
   NextLevel: Level3
   Arguments: 
   location: {x: 0, y: 0}
+  LockColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &2130911285
 BoxCollider2D:
   m_ObjectHideFlags: 0

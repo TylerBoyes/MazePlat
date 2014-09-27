@@ -10,6 +10,9 @@ public class GameMenu : MonoBehaviour
     public string SceneToLoad;
     public bool QuitOnClick = false;
 
+    public string Arguments;
+    public Vector2 location;
+
     Color color;
     TextMesh textMesh;
     MenuVariables sceneVariables;
@@ -52,7 +55,13 @@ public class GameMenu : MonoBehaviour
         if (QuitOnClick)
             Application.Quit();
         else
+        {
+            gameObject.SendMessage("Activate");
             Application.LoadLevel(SceneToLoad);
+            GameWideVariables.arguments = Arguments;
+            GameWideVariables.location = location;   
+
+        }
     }
 
     void OnMouseUpAsButton()

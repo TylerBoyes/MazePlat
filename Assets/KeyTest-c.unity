@@ -447,7 +447,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 24697518}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &24697521
@@ -1368,6 +1368,10 @@ Prefab:
     - target: {fileID: 11400000, guid: ad7869414b92d3548b2511a8cb2889f0, type: 2}
       propertyPath: NextLevel
       value: KeyTest-e
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: ad7869414b92d3548b2511a8cb2889f0, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad7869414b92d3548b2511a8cb2889f0, type: 2}
@@ -4229,7 +4233,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 527052369}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &527052372
@@ -5528,7 +5532,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 0a6dc394bdf36b648ad86948bee01489, type: 2}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 0a6dc394bdf36b648ad86948bee01489, type: 2}
       propertyPath: m_Size.x
@@ -5537,6 +5541,10 @@ Prefab:
     - target: {fileID: 6100000, guid: 0a6dc394bdf36b648ad86948bee01489, type: 2}
       propertyPath: m_Size.y
       value: .400000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 0a6dc394bdf36b648ad86948bee01489, type: 2}
+      propertyPath: HalfHeight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a6dc394bdf36b648ad86948bee01489, type: 2}
@@ -6455,7 +6463,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 815574007}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &815574010
@@ -7537,7 +7545,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 918564021}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &918564024
@@ -7829,7 +7837,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1007367405}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1007367408
@@ -8014,7 +8022,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1046471067}
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: da9b4b4f84ad4bb4ca8063652726c1b4, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: .239999995, y: .400000006}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1046471074
@@ -8092,7 +8100,10 @@ MonoBehaviour:
   teleporterMask:
     serializedVersion: 2
     m_Bits: 1024
-  test: 0
+  topEdge: {fileID: 1046471069}
+  rightEdge: {fileID: 1046471072}
+  leftEdge: {fileID: 1046471071}
+  HalfHeight: 1
   grounded: 0
   onSolidGround: 0
   Teleported: 1
@@ -9038,7 +9049,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1177039025}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1177039028
@@ -9348,7 +9359,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1226818515}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1226818518
@@ -9596,7 +9607,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1240413282}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1240413285
@@ -10373,7 +10384,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1393985428}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1393985431
@@ -13178,7 +13189,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1780164600}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1780164603
@@ -14581,7 +14592,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1939643191}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: .319999963, y: .319999963}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1939643194

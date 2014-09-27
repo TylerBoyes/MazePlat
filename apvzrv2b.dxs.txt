@@ -1,0 +1,30 @@
+﻿Revert "removed large file"
+
+This reverts commit 2b28aac0d0097ff6dc05f3b4753f3210e81e514c.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 3 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# Changes to be committed:
+#	new file:   Assets/Sprites/to chop up/vladikoff-archon-44bc9ba24037.zip
+#
+# Untracked files:
+#	Assets/Animation/Fairy-move-controller.controller
+#	Assets/Animation/Fairy-move-controller.controller.meta
+#	Assets/Animation/Fairy2.anim
+#	Assets/Animation/Fairy2.anim.meta
+#	Assets/Animation/PlayerFreeze2.anim
+#	Assets/Animation/PlayerFreeze2.anim.meta
+#	Assets/Animation/blue_fairy_4.controller
+#	Assets/Animation/blue_fairy_4.controller.meta
+#	Assets/Animation/blue_fairy_5.controller
+#	Assets/Animation/blue_fairy_5.controller.meta
+#	Assets/Prefabs/StoneDungeon.meta
+#	Assets/Prefabs/StoneDungeon/
+#	Mazer/
+#
+
