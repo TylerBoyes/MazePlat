@@ -16,6 +16,10 @@ public class PlayerInput : MonoBehaviour
     public Sprite[] walkingDownSprites;
     public Sprite[] walkingRightSprites;
     public Sprite[] walkingLeftSprites;
+
+    Direction direction = Direction.South;
+    public Direction Direction { get { return direction; } set { direction = value; } }
+
     int activeSide = 0;
 
     public int items = 0;
@@ -149,6 +153,7 @@ public class PlayerInput : MonoBehaviour
             index = index % walkingUpSprites.Length;
             spriteRenderer.sprite = walkingRightSprites[index];
             activeSide = 2;
+            direction = Direction.East;
         }
         else if (-currentSpeed.x > minAnimationSpeed) // if the player is moving to the left
         {
@@ -156,6 +161,7 @@ public class PlayerInput : MonoBehaviour
             index = index % walkingUpSprites.Length;
             spriteRenderer.sprite = walkingLeftSprites[index];
             activeSide = 3;
+            direction = Direction.West;
         }
         else if (currentSpeed.y > minAnimationSpeed) // if the player is moving up
         {
@@ -163,6 +169,7 @@ public class PlayerInput : MonoBehaviour
             index = index % walkingUpSprites.Length;
             spriteRenderer.sprite = walkingUpSprites[index];
             activeSide = 1;
+            direction = Direction.North;
         }
         else if (-currentSpeed.y > minAnimationSpeed) //if the player is moving down
         {
@@ -170,6 +177,7 @@ public class PlayerInput : MonoBehaviour
             index = index % walkingUpSprites.Length;
             spriteRenderer.sprite = walkingDownSprites[index];
             activeSide = 0;
+            direction = Direction.South;
         }
         else // if the player is not moving, show the first frame of the animation. its the resting frame
         {
@@ -191,4 +199,12 @@ public class PlayerInput : MonoBehaviour
             }
         }
     }
+}
+
+public enum Direction
+{
+    North, 
+    East,
+    South,
+    West
 }
