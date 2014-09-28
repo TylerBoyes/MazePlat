@@ -36,7 +36,9 @@ public class PlayerInput : MonoBehaviour
 
     SpriteRenderer spriteRenderer;
     List<Pickup> inventory;
-    string hashKey;
+    Hashtable resources;
+    string inventoryHashKey;
+    string resourcesHashKey;
 
     public List<Pickup> Inventory
     {
@@ -46,9 +48,9 @@ public class PlayerInput : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        hashKey = "PlayerInventory";
+        inventoryHashKey = "PlayerInventory";
 
-        object value = GameState.Instance.GetValue(hashKey);
+        object value = GameState.Instance.GetValue(inventoryHashKey);
         if (value != null)
         {
             inventory = (List<Pickup>)value;
@@ -56,7 +58,19 @@ public class PlayerInput : MonoBehaviour
         else
         {
             inventory = new List<Pickup>();
-            GameState.Instance.AddObject(hashKey, inventory);
+            GameState.Instance.AddObject(inventoryHashKey, inventory);
+        }
+
+        resourcesHashKey = "PlayerResources";
+        value = GameState.Instance.GetValue(resourcesHashKey);
+        if (value != null)
+        {
+            resources = (Hashtable)value;
+        }
+        else
+        {
+            resources = new Hashtable();
+            GameState.Instance.AddObject(resourcesHashKey, resources);
         }
 
 
@@ -116,8 +130,27 @@ public class PlayerInput : MonoBehaviour
         if (typeof(Pickup) == item.GetType())
         {
             Pickup pickup = (Pickup)item;
-            DontDestroyOnLoad(pickup.gameObject);
-            inventory.Add(pickup);
+
+            if (pickup.IsResource)
+            {
+                if (resources.Contains(pickup.Item))
+                {
+                    string key = pickup.Item;
+                    int value = ((int)resources[key]) + pickup.amount;                   
+
+                    resources.Remove(key);
+                    resources.Add(key, value);
+                }
+                else
+                {
+                    resources.Add(pickup.Item, pickup.amount);
+                }
+            }
+            else
+            {
+                DontDestroyOnLoad(pickup.gameObject);
+                inventory.Add(pickup);
+            }
         }
     }
 

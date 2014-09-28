@@ -36,6 +36,9 @@ public class PlayerPhysics : MonoBehaviour
 
     Ray2D ray;
 
+    bool sceneStarting = true;
+    float sceneTime = 0;
+
     // Use this for initialization
     void Start()
     {
@@ -89,6 +92,11 @@ public class PlayerPhysics : MonoBehaviour
 
     void FixedUpdate()
     {
+        //this is to prevent the user from switching scenes while holding up real fast
+        sceneTime += Time.deltaTime;
+        if (sceneTime > 1.25f)
+            sceneStarting = false;
+
         onSolidGround = false;
 
         LandedDetection(transform.position);

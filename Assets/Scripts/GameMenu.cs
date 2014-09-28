@@ -58,7 +58,7 @@ public class GameMenu : MonoBehaviour
         {
             gameObject.SendMessage("Activate");
             Application.LoadLevel(SceneToLoad);
-            GameWideVariables.arguments = Arguments;
+            GameWideVariables.playerArguments = Arguments;
             GameWideVariables.location = location;   
 
         }

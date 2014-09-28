@@ -31,6 +31,8 @@ public class MazeGenerator : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
+
+
         Edge.Seed = Seed;
         Edge.SeedIncrement = SeedIncrement;
         cells = new MazeNode[MazeSizeX, MazeSizeY];
@@ -66,6 +68,16 @@ public class MazeGenerator : MonoBehaviour
 
         GameObject entranceDoor = (GameObject)Instantiate(Resources.Load(DoorPrefab));
         entranceDoor.transform.position = startPos;
+        SceneDoor sceneDoor = entranceDoor.GetComponent<SceneDoor>();
+        if (GameWideVariables.mazeArguments == "ReturnPoint")
+        {
+            sceneDoor.location = GameWideVariables.entryDoorLocation;
+            sceneDoor.NextLevel = GameWideVariables.entryDoorDestination;
+            sceneDoor.Arguments = "SpawnAt";
+        }
+        GameWideVariables.mazeArguments = "";
+        GameWideVariables.entryDoorLocation = Vector2.zero;
+        GameWideVariables.entryDoorDestination = "";
     }
 
     private void BuildMazeArray()
