@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 61: {fileID: 6100000}
+  - 114: {fileID: 11400000}
   m_Layer: 10
   m_Name: MazeDoor
   m_TagString: Untagged
@@ -97,6 +98,24 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: .800000012, y: 1.39999998}
   m_Center: {x: -.0500000007, y: .200000003}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 467feff987149994fab90389582327f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LockType: Lock
+  RequiredKey: 
+  NextLevel: 
+  TouchActivated: 0
+  Arguments: 
+  location: {x: 0, y: 0}
+  LockColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

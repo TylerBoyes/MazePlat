@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 108.800613, y: -44.9276466, z: 0}
+  m_LocalPosition: {x: 50.5, y: 47.5, z: 0}
   m_LocalScale: {x: -3.13000011, y: 3.13000011, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,7 +112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: AddItem
-  Item: 
+  Item: Gold
+  amount: 5
+  IsResource: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

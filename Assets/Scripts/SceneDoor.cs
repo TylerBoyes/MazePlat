@@ -12,6 +12,10 @@ public class SceneDoor : MonoBehaviour
     public Color LockColour = Color.white;
     bool doorActive = true;
     string hashKey;
+
+    public string MazeArguments = "";
+    public Vector2 EntryDoorLocation;
+    public string EntryDoorDestination = "";
     
 
     bool unlocked = false;
@@ -56,8 +60,12 @@ public class SceneDoor : MonoBehaviour
             GameState.Instance.Replace(hashKey, true);  
         }
 
-        GameWideVariables.arguments = Arguments;
-        GameWideVariables.location = location;        
+        GameWideVariables.playerArguments = Arguments;
+        GameWideVariables.location = location;       
+ 
+        GameWideVariables.mazeArguments = MazeArguments;
+        GameWideVariables.entryDoorLocation = EntryDoorLocation;
+        GameWideVariables.entryDoorDestination = EntryDoorDestination;
 
         Application.LoadLevel(NextLevel);
         doorActive = false;

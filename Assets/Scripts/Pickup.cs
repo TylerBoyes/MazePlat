@@ -5,6 +5,8 @@ public class Pickup : MonoBehaviour
 {
     public string message = "AddItem";
     public string Item = "";
+    public int amount = 1;
+    public bool IsResource = false;
 
     string hashKey;
 
