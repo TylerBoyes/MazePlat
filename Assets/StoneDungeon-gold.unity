@@ -732,7 +732,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1a873389af98ccf4ea9d5dd5987d476a, type: 2}
       propertyPath: NextLevel
-      value: StoneDungeon-c
+      value: StoneDungeon-d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a873389af98ccf4ea9d5dd5987d476a, type: 2}
@@ -2679,7 +2679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  NextLevel: StoneDungeon-c
+  NextLevel: StoneDungeon-d
   TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}

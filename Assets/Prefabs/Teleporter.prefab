@@ -70,8 +70,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: 
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
