@@ -3460,6 +3460,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &737203160
 Animator:
   serializedVersion: 3
@@ -3625,6 +3628,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &771077244
 Animator:
   serializedVersion: 3
@@ -4326,7 +4332,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: AddItem
-  Item: 
+  Item: Gold
+  amount: 5
+  IsResource: 0
 --- !u!82 &850323335
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5241,7 +5249,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: AddItem
-  Item: 
+  Item: Gold
+  amount: 5
+  IsResource: 0
 --- !u!82 &923988192
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8849,6 +8859,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1514872633
 Animator:
   serializedVersion: 3
@@ -9672,6 +9685,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1669546143
 Animator:
   serializedVersion: 3
@@ -9851,6 +9867,7 @@ GameObject:
   - 92: {fileID: 1688740082}
   - 124: {fileID: 1688740081}
   - 81: {fileID: 1688740080}
+  - 82: {fileID: 1688740085}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9923,6 +9940,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!82 &1688740085
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1688740079}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: fa170c5c2622931478ef56c4989c9988, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .699999988
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &1703889304
 GameObject:
   m_ObjectHideFlags: 0
@@ -10497,6 +10572,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1758763984
 Animator:
   serializedVersion: 3
@@ -10726,6 +10804,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1868307041
 Animator:
   serializedVersion: 3
@@ -11191,6 +11272,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1920344612
 Animator:
   serializedVersion: 3
@@ -12032,6 +12116,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &2099987974
 Animator:
   serializedVersion: 3
@@ -12317,6 +12404,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &2134487702
 Animator:
   serializedVersion: 3

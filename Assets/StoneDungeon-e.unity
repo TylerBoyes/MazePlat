@@ -3133,6 +3133,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &610212832
 Animator:
   serializedVersion: 3
@@ -5010,6 +5013,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &985178750
 Animator:
   serializedVersion: 3
@@ -6107,6 +6113,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1240649986
 Animator:
   serializedVersion: 3
@@ -8449,7 +8458,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: fa170c5c2622931478ef56c4989c9988, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: .699999988
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8931,6 +8940,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1675385392
 Animator:
   serializedVersion: 3
@@ -9444,6 +9456,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1747950930
 Animator:
   serializedVersion: 3
@@ -9609,6 +9624,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1760154788
 Animator:
   serializedVersion: 3
@@ -10462,6 +10480,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1892301341
 Animator:
   serializedVersion: 3
@@ -10819,6 +10840,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1927757075
 Animator:
   serializedVersion: 3
@@ -11176,6 +11200,9 @@ MonoBehaviour:
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &2006316653
 Animator:
   serializedVersion: 3
