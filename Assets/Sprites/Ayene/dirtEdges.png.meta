@@ -11,6 +11,13 @@ TextureImporter:
     21300012: dirtEdges_5
     21300014: dirtEdges_6
     21300016: dirtEdges_7
+    21300018: dirtEdges_8
+    21300020: dirtEdges_9
+    21300022: dirtEdges_10
+    21300024: dirtEdges_11
+    21300026: dirtEdges_12
+    21300028: dirtEdges_13
+    21300030: dirtEdges_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -56,7 +63,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -66,7 +73,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -75,7 +82,7 @@ TextureImporter:
     - name: dirtEdges_2
       rect:
         serializedVersion: 2
-        x: 0
+        x: 64
         y: 64
         width: 32
         height: 32
@@ -85,7 +92,7 @@ TextureImporter:
     - name: dirtEdges_3
       rect:
         serializedVersion: 2
-        x: 32
+        x: 96
         y: 64
         width: 32
         height: 32
@@ -95,8 +102,8 @@ TextureImporter:
     - name: dirtEdges_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 128
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -105,7 +112,7 @@ TextureImporter:
     - name: dirtEdges_5
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 32
         width: 32
         height: 32
@@ -115,8 +122,8 @@ TextureImporter:
     - name: dirtEdges_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 32
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -125,7 +132,77 @@ TextureImporter:
     - name: dirtEdges_7
       rect:
         serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirtEdges_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirtEdges_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirtEdges_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirtEdges_11
+      rect:
+        serializedVersion: 2
         x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirtEdges_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirtEdges_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirtEdges_14
+      rect:
+        serializedVersion: 2
+        x: 128
         y: 0
         width: 32
         height: 32
