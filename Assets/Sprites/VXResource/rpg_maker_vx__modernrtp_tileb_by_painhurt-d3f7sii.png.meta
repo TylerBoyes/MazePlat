@@ -3,6 +3,255 @@ guid: ac2edc337853a8041a1cab844684ad08
 TextureImporter:
   fileIDToRecycleName:
     21300000: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii
+    21300002: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_0
+    21300004: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_1
+    21300006: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_2
+    21300008: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_3
+    21300010: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_4
+    21300012: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_5
+    21300014: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_6
+    21300016: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_7
+    21300018: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_8
+    21300020: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_9
+    21300022: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_10
+    21300024: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_11
+    21300026: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_12
+    21300028: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_13
+    21300030: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_14
+    21300032: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_15
+    21300034: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_16
+    21300036: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_17
+    21300038: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_18
+    21300040: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_19
+    21300042: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_20
+    21300044: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_21
+    21300046: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_22
+    21300048: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_23
+    21300050: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_24
+    21300052: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_25
+    21300054: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_26
+    21300056: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_27
+    21300058: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_28
+    21300060: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_29
+    21300062: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_30
+    21300064: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_31
+    21300066: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_32
+    21300068: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_33
+    21300070: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_34
+    21300072: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_35
+    21300074: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_36
+    21300076: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_37
+    21300078: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_38
+    21300080: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_39
+    21300082: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_40
+    21300084: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_41
+    21300086: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_42
+    21300088: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_43
+    21300090: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_44
+    21300092: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_45
+    21300094: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_46
+    21300096: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_47
+    21300098: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_48
+    21300100: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_49
+    21300102: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_50
+    21300104: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_51
+    21300106: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_52
+    21300108: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_53
+    21300110: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_54
+    21300112: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_55
+    21300114: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_56
+    21300116: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_57
+    21300118: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_58
+    21300120: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_59
+    21300122: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_60
+    21300124: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_61
+    21300126: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_62
+    21300128: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_63
+    21300130: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_64
+    21300132: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_65
+    21300134: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_66
+    21300136: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_67
+    21300138: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_68
+    21300140: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_69
+    21300142: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_70
+    21300144: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_71
+    21300146: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_72
+    21300148: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_73
+    21300150: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_74
+    21300152: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_75
+    21300154: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_76
+    21300156: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_77
+    21300158: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_78
+    21300160: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_79
+    21300162: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_80
+    21300164: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_81
+    21300166: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_82
+    21300168: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_83
+    21300170: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_84
+    21300172: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_85
+    21300174: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_86
+    21300176: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_87
+    21300178: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_88
+    21300180: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_89
+    21300182: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_90
+    21300184: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_91
+    21300186: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_92
+    21300188: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_93
+    21300190: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_94
+    21300192: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_95
+    21300194: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_96
+    21300196: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_97
+    21300198: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_98
+    21300200: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_99
+    21300202: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_100
+    21300204: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_101
+    21300206: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_102
+    21300208: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_103
+    21300210: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_104
+    21300212: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_105
+    21300214: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_106
+    21300216: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_107
+    21300218: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_108
+    21300220: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_109
+    21300222: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_110
+    21300224: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_111
+    21300226: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_112
+    21300228: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_113
+    21300230: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_114
+    21300232: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_115
+    21300234: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_116
+    21300236: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_117
+    21300238: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_118
+    21300240: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_119
+    21300242: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_120
+    21300244: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_121
+    21300246: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_122
+    21300248: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_123
+    21300250: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_124
+    21300252: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_125
+    21300254: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_126
+    21300256: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_127
+    21300258: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_128
+    21300260: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_129
+    21300262: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_130
+    21300264: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_131
+    21300266: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_132
+    21300268: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_133
+    21300270: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_134
+    21300272: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_135
+    21300274: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_136
+    21300276: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_137
+    21300278: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_138
+    21300280: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_139
+    21300282: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_140
+    21300284: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_141
+    21300286: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_142
+    21300288: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_143
+    21300290: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_144
+    21300292: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_145
+    21300294: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_146
+    21300296: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_147
+    21300298: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_148
+    21300300: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_149
+    21300302: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_150
+    21300304: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_151
+    21300306: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_152
+    21300308: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_153
+    21300310: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_154
+    21300312: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_155
+    21300314: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_156
+    21300316: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_157
+    21300318: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_158
+    21300320: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_159
+    21300322: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_160
+    21300324: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_161
+    21300326: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_162
+    21300328: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_163
+    21300330: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_164
+    21300332: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_165
+    21300334: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_166
+    21300336: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_167
+    21300338: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_168
+    21300340: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_169
+    21300342: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_170
+    21300344: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_171
+    21300346: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_172
+    21300348: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_173
+    21300350: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_174
+    21300352: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_175
+    21300354: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_176
+    21300356: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_177
+    21300358: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_178
+    21300360: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_179
+    21300362: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_180
+    21300364: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_181
+    21300366: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_182
+    21300368: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_183
+    21300370: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_184
+    21300372: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_185
+    21300374: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_186
+    21300376: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_187
+    21300378: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_188
+    21300380: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_189
+    21300382: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_190
+    21300384: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_191
+    21300386: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_192
+    21300388: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_193
+    21300390: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_194
+    21300392: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_195
+    21300394: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_196
+    21300396: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_197
+    21300398: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_198
+    21300400: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_199
+    21300402: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_200
+    21300404: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_201
+    21300406: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_202
+    21300408: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_203
+    21300410: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_204
+    21300412: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_205
+    21300414: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_206
+    21300416: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_207
+    21300418: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_208
+    21300420: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_209
+    21300422: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_210
+    21300424: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_211
+    21300426: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_212
+    21300428: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_213
+    21300430: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_214
+    21300432: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_215
+    21300434: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_216
+    21300436: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_217
+    21300438: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_218
+    21300440: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_219
+    21300442: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_220
+    21300444: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_221
+    21300446: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_222
+    21300448: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_223
+    21300450: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_224
+    21300452: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_225
+    21300454: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_226
+    21300456: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_227
+    21300458: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_228
+    21300460: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_229
+    21300462: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_230
+    21300464: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_231
+    21300466: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_232
+    21300468: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_233
+    21300470: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_234
+    21300472: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_235
+    21300474: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_236
+    21300476: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_237
+    21300478: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_238
+    21300480: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_239
+    21300482: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_240
+    21300484: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_241
+    21300486: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_242
+    21300488: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_243
+    21300490: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_244
+    21300492: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_245
+    21300494: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_246
+    21300496: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_247
+    21300498: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_248
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,14 +274,14 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -43,6 +292,2496 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_37
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_40
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_53
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_55
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_56
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_57
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_63
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_67
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_69
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_71
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_73
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_81
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_83
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_87
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_88
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_95
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_97
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_99
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_101
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_103
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_104
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_105
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_111
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_113
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_115
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_117
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_119
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_120
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_121
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_127
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_128
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_129
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_130
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_131
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_132
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_133
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_134
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_135
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_136
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_137
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_139
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_140
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_141
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_142
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_143
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_144
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_145
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_146
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_147
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_148
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_149
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_150
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_151
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_152
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_153
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_155
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_156
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_157
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_159
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_160
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_161
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_162
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_163
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_165
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_166
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_167
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_168
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_169
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_171
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_172
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_173
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_175
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_177
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_178
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_179
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_180
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_181
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_183
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_184
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_185
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_189
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_191
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_192
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_193
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_194
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_195
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_196
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_197
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_198
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_200
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_201
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_202
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_203
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_204
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_205
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_206
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_207
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_208
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_209
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_210
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_211
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_212
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_213
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_214
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_215
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_216
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_218
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_219
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_220
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_221
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_222
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_223
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_224
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_225
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_226
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_227
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_228
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_229
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_230
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_232
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_233
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_234
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_235
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_236
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_237
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_238
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_239
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_240
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_241
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_242
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_243
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_244
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_245
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_246
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_247
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii_248
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

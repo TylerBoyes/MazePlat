@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class EnableRequirement : MonoBehaviour 
 {
@@ -7,19 +8,26 @@ public class EnableRequirement : MonoBehaviour
     public int Amount = 0;
     public bool DisableAtAmount = false;
 
+    public string Item = "";
 
-	// Use this for initialization
-	void Start () 
+    // Use this for initialization
+    void Start()
     {
-        Hashtable resources = (Hashtable)GameState.Instance.GetValue("PlayerResources");
-
         gameObject.SetActive(DisableAtAmount);
-        if (resources.Contains(Resource))
+
+        Hashtable resources = (Hashtable)GameState.Instance.GetValue("PlayerResources");
+        List<Pickup> inventory = (List<Pickup>)GameState.Instance.GetValue("PlayerInventory");
+
+        bool hasResource = Resource == "" || (resources.Contains(Resource) && ((int)resources[Resource]) >= Amount);
+        bool hasItem = Item == "";
+        foreach (Pickup p in inventory)
+            if (p.Item == Item)
+                hasItem = true;
+
+
+        if (hasResource && hasItem)
         {
-            if (((int)resources[Resource]) >= Amount)
-            {
-                gameObject.SetActive(!DisableAtAmount);
-            }
+            gameObject.SetActive(!DisableAtAmount);
         }
-	}
+    }
 }
