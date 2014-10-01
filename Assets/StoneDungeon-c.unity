@@ -119,11 +119,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-d
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &13442386
 Animator:
   serializedVersion: 3
@@ -680,11 +683,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-c
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &108798763
 Animator:
   serializedVersion: 3
@@ -1985,11 +1991,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-c
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &347704777
 Animator:
   serializedVersion: 3
@@ -2979,6 +2988,7 @@ GameObject:
   - 92: {fileID: 474075423}
   - 124: {fileID: 474075422}
   - 81: {fileID: 474075421}
+  - 82: {fileID: 474075426}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3051,6 +3061,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!82 &474075426
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474075420}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: fa170c5c2622931478ef56c4989c9988, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .699999988
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &519596359
 GameObject:
   m_ObjectHideFlags: 0
@@ -4412,11 +4480,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-c
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!61 &743190327
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4474,11 +4545,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-c
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &756295127
 Animator:
   serializedVersion: 3
@@ -7314,8 +7388,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: da9b4b4f84ad4bb4ca8063652726c1b4, type: 2}
   m_IsTrigger: 1
-  m_Size: {x: .306944519, y: .480000049}
-  m_Center: {x: -.00152828137, y: 0}
+  m_Size: {x: .239999995, y: .400000006}
+  m_Center: {x: 0, y: 0}
 --- !u!50 &1329979208
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -7391,7 +7465,10 @@ MonoBehaviour:
   teleporterMask:
     serializedVersion: 2
     m_Bits: 1024
-  test: 0
+  topEdge: {fileID: 1329979203}
+  rightEdge: {fileID: 1329979206}
+  leftEdge: {fileID: 1329979205}
+  HalfHeight: 0
   grounded: 0
   onSolidGround: 0
   Teleported: 1
@@ -8974,11 +9051,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-c
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1584611736
 Animator:
   serializedVersion: 3
@@ -9715,11 +9795,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-c
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1733236720
 Animator:
   serializedVersion: 3
@@ -9872,11 +9955,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-c
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1803134422
 Animator:
   serializedVersion: 3
@@ -11754,11 +11840,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: StoneDungeon-c
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &2109276363
 Animator:
   serializedVersion: 3

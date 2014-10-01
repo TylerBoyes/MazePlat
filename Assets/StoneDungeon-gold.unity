@@ -472,7 +472,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: AddItem
-  Item: 
+  Item: Gold
+  amount: 5
+  IsResource: 0
 --- !u!82 &329836687
 AudioSource:
   m_ObjectHideFlags: 0
@@ -732,7 +734,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1a873389af98ccf4ea9d5dd5987d476a, type: 2}
       propertyPath: NextLevel
-      value: StoneDungeon-c
+      value: StoneDungeon-d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a873389af98ccf4ea9d5dd5987d476a, type: 2}
@@ -969,7 +971,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: AddItem
-  Item: 
+  Item: Gold
+  amount: 5
+  IsResource: 0
 --- !u!82 &554760054
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1092,7 +1096,7 @@ Transform:
   m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
   m_Children: []
   m_Father: {fileID: 1542044365}
-  m_RootOrder: 45
+  m_RootOrder: 41
 --- !u!61 &567013564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1232,7 +1236,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: AddItem
-  Item: 
+  Item: Gold
+  amount: 5
+  IsResource: 0
 --- !u!82 &692680973
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1433,7 +1439,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: AddItem
-  Item: 
+  Item: Gold
+  amount: 5
+  IsResource: 0
 --- !u!82 &770339776
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1954,7 +1962,7 @@ Transform:
   m_LocalScale: {x: 22.8059444, y: 1.86377609, z: 1}
   m_Children: []
   m_Father: {fileID: 1542044365}
-  m_RootOrder: 44
+  m_RootOrder: 45
 --- !u!61 &953758987
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2184,7 +2192,7 @@ Transform:
   m_LocalScale: {x: 1.59392583, y: 19.3511658, z: 1}
   m_Children: []
   m_Father: {fileID: 1542044365}
-  m_RootOrder: 43
+  m_RootOrder: 44
 --- !u!61 &1069459795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2679,11 +2687,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  NextLevel: StoneDungeon-c
+  NextLevel: StoneDungeon-d
   TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!95 &1334428274
 Animator:
   serializedVersion: 3
@@ -2863,11 +2874,11 @@ Transform:
   - {fileID: 283865092}
   - {fileID: 719326630}
   - {fileID: 1836060527}
+  - {fileID: 567013563}
   - {fileID: 1760913266}
   - {fileID: 1925753411}
   - {fileID: 1069459794}
   - {fileID: 953758986}
-  - {fileID: 567013563}
   m_Father: {fileID: 0}
   m_RootOrder: 8
 --- !u!1 &1576560325
@@ -3376,7 +3387,7 @@ Transform:
   m_LocalScale: {x: 22.8059444, y: 1.86377585, z: 1}
   m_Children: []
   m_Father: {fileID: 1542044365}
-  m_RootOrder: 41
+  m_RootOrder: 42
 --- !u!61 &1760913267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3904,7 +3915,7 @@ Transform:
   m_LocalScale: {x: 1.7926563, y: 21.7638702, z: 1}
   m_Children: []
   m_Father: {fileID: 1542044365}
-  m_RootOrder: 42
+  m_RootOrder: 43
 --- !u!61 &1925753412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4106,7 +4117,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: AddItem
-  Item: 
+  Item: Gold
+  amount: 5
+  IsResource: 0
 --- !u!82 &2043810311
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4275,6 +4288,7 @@ GameObject:
   - 92: {fileID: 2062545463}
   - 124: {fileID: 2062545462}
   - 81: {fileID: 2062545461}
+  - 82: {fileID: 2062545466}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4347,6 +4361,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!82 &2062545466
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2062545460}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 54200ed2436f9404bb5d31bab6ccd61d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .699999988
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &2068794526
 GameObject:
   m_ObjectHideFlags: 0
