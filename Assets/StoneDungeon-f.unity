@@ -1027,7 +1027,7 @@ GameObject:
   - 114: {fileID: 186109283}
   - 61: {fileID: 186109282}
   m_Layer: 11
-  m_Name: Gold
+  m_Name: Gold5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1060,7 +1060,7 @@ MonoBehaviour:
   message: AddItem
   Item: Gold
   amount: 5
-  IsResource: 0
+  IsResource: 1
 --- !u!82 &186109284
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1139,7 +1139,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1548355657
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4265,7 +4265,7 @@ GameObject:
   - 114: {fileID: 779445482}
   - 61: {fileID: 779445481}
   m_Layer: 11
-  m_Name: Gold
+  m_Name: Gold5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4298,7 +4298,7 @@ MonoBehaviour:
   message: AddItem
   Item: Gold
   amount: 5
-  IsResource: 0
+  IsResource: 1
 --- !u!82 &779445483
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4377,7 +4377,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1548355657
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4598,7 +4598,7 @@ GameObject:
   - 114: {fileID: 833536845}
   - 61: {fileID: 833536844}
   m_Layer: 11
-  m_Name: Gold
+  m_Name: Gold5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4631,7 +4631,7 @@ MonoBehaviour:
   message: AddItem
   Item: Gold
   amount: 5
-  IsResource: 0
+  IsResource: 1
 --- !u!82 &833536846
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4710,7 +4710,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1548355657
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7248,7 +7248,7 @@ GameObject:
   - 114: {fileID: 1290074927}
   - 61: {fileID: 1290074926}
   m_Layer: 11
-  m_Name: Gold
+  m_Name: Gold5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7281,7 +7281,7 @@ MonoBehaviour:
   message: AddItem
   Item: Gold
   amount: 5
-  IsResource: 0
+  IsResource: 1
 --- !u!82 &1290074928
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7360,7 +7360,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1548355657
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

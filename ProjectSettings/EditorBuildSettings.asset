@@ -23,6 +23,8 @@ EditorBuildSettings:
     path: Assets/StoneDungeon-d.unity
   - enabled: 1
     path: Assets/StoneDungeon-e.unity
+  - enabled: 0
+    path: Assets/StoneDungeon-gold.unity
   - enabled: 1
     path: Assets/StoneDungeon-gold.unity
   - enabled: 1
@@ -48,6 +50,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/NeverEndingMaze.unity
   - enabled: 1
-    path: Assets/StoneDungeon-gold.unity
-  - enabled: 1
     path: Assets/Level3-Caveb.unity
+  - enabled: 1
+    path: Assets/StoneDungeon-f.unity
