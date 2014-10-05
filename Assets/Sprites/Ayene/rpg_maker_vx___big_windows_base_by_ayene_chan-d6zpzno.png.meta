@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 84524a0902bd99c44909ddda753be071
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno
+    21300002: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_0
+    21300004: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_1
+    21300006: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_2
+    21300008: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_3
+    21300010: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_4
+    21300012: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_5
+    21300014: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_6
+    21300016: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_7
+    21300018: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_8
+    21300020: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_9
+    21300022: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_10
+    21300024: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 195
+        width: 106
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 195
+        width: 106
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 195
+        width: 106
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 116
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 136
+        width: 116
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 128
+        width: 116
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 74
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 74
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 74
+        width: 92
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rpg_maker_vx___big_windows_base_by_ayene_chan-d6zpzno_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

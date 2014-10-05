@@ -416,6 +416,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: AddItem
   Item: WoodenKey
+  amount: 1
+  IsResource: 0
 --- !u!61 &32896663
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3033,11 +3035,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: YellowKey
-  TouchActivated: 0
   NextLevel: KeyTest-d
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 0, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!61 &347367594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3584,11 +3589,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 1
   NextLevel: Level3
+  TouchActivated: 1
   Arguments: SpawnAt
-  location: {x: 0, y: 0}
+  location: {x: 89.5299988, y: 11.3599997}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!212 &414347363
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11863,11 +11871,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: WoodenKey
-  TouchActivated: 0
   NextLevel: KeyTest-b
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: .737254918, g: .615686297, b: .352941185, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!1 &1443508852
 GameObject:
   m_ObjectHideFlags: 0
@@ -15688,6 +15699,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: AddItem
   Item: WoodenKey
+  amount: 1
+  IsResource: 0
 --- !u!61 &1988841531
 BoxCollider2D:
   m_ObjectHideFlags: 0
