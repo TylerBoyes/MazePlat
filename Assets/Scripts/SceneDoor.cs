@@ -3,6 +3,8 @@ using System.Collections;
 
 public class SceneDoor : MonoBehaviour
 {
+    public float FadeTime = 0.5f;
+    public bool FreezePlayer = true;
     public string LockType = "Lock";
     public string RequiredKey = "";
     public string NextLevel;
@@ -51,6 +53,12 @@ public class SceneDoor : MonoBehaviour
     {
         if (!doorActive) return;
 
+        AudioSource audio = GetComponent<AudioSource>();
+        if (audio != null)
+        {
+            audio.Play();
+        }
+
         if (!unlocked && RequiredKey.Length > 0)
         {
             if (!player.GetComponent<PlayerInput>().UseItem(RequiredKey))
@@ -67,7 +75,13 @@ public class SceneDoor : MonoBehaviour
         GameWideVariables.entryDoorLocation = EntryDoorLocation;
         GameWideVariables.entryDoorDestination = EntryDoorDestination;
 
-        Application.LoadLevel(NextLevel);
-        doorActive = false;
+        if (FreezePlayer)
+        {
+            player.GetComponent<PlayerInput>().enabled = false;
+        }
+
+        Fader.Instance.LoadLevel(NextLevel, FadeTime);
+		doorActive = false;
+            
     }
 }

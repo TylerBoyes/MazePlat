@@ -40,7 +40,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .200000003, y: .200000003}
+  m_Size: {x: .100000001, y: .100000001}
   m_Center: {x: 0, y: 0}
 --- !u!95 &9500000
 Animator:
@@ -68,13 +68,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 467feff987149994fab90389582327f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FadeTime: .5
+  FreezePlayer: 1
   LockType: Lock
   RequiredKey: 
-  TouchActivated: 0
   NextLevel: 
+  TouchActivated: 0
   Arguments: 
   location: {x: 0, y: 0}
   LockColour: {r: 1, g: 1, b: 1, a: 1}
+  MazeArguments: 
+  EntryDoorLocation: {x: 0, y: 0}
+  EntryDoorDestination: 
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
