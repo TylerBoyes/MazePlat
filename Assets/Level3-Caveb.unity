@@ -34226,6 +34226,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 873616942}
+  - 114: {fileID: 873616943}
   m_Layer: 0
   m_Name: PlayerLight
   m_TagString: Untagged
@@ -34247,6 +34248,22 @@ Transform:
   - {fileID: 1858584058}
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!114 &873616943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 78149b2430c21ee4880667c40b0ff1e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 557037660}
+  m_GameObject: {fileID: 873616941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4e5a1dbc84dde4ea7b7bcc2e5cadaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Resource: 
+  Amount: 0
+  DisableAtAmount: 0
+  Item: Lantern
 --- !u!1 &874871068
 GameObject:
   m_ObjectHideFlags: 0
@@ -41606,7 +41623,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 05ea735fc3ffb0f42a6a5bd985bf02d1, type: 2}
       propertyPath: NextLevel
-      value: Level3-Cliff
+      value: MountainSide
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 05ea735fc3ffb0f42a6a5bd985bf02d1, type: 2}
       propertyPath: Arguments
@@ -65704,7 +65721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f75b88f825471d4f883ac14bebf93f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Destination: {x: -16.5, y: 28.5}
+  Destination: {x: 16.5, y: 28.5}
   LoadNextLevel: 0
   NextLevel: 
   LeftOf: 0
@@ -73858,7 +73875,7 @@ Light:
   m_DrawHalo: 0
   m_ActuallyLightmapped: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -78033,7 +78050,7 @@ Light:
   m_DrawHalo: 0
   m_ActuallyLightmapped: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -81782,7 +81799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LockType: Lock
   RequiredKey: 
-  NextLevel: Level3-Cliff
+  NextLevel: MountainSide
   TouchActivated: 1
   Arguments: 
   location: {x: 0, y: 0}

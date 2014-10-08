@@ -174,7 +174,7 @@ public class PlayerPhysics : MonoBehaviour
             Teleporter teleporter = hit.collider.gameObject.GetComponent<Teleporter>();
             bool pressing = Input.GetAxis("Vertical") != 0;
 
-            if (teleporter != null && pressing)
+            if (teleporter != null && (pressing || teleporter.TouchActivated))
             {
                 bool teleport = teleporter.Activate();
                 if (teleport)

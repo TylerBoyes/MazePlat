@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Teleporter : MonoBehaviour 
 {
+    public bool TouchActivated = false;
     public Vector2 Destination;
     public bool LoadNextLevel = false;
     public string NextLevel;
