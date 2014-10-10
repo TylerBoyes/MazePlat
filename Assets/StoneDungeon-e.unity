@@ -617,6 +617,70 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &56868130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100352, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 56868131}
+  - 212: {fileID: 56868133}
+  - 61: {fileID: 56868132}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56868131
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400352, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 56868130}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: .5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 170
+--- !u!61 &56868132
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100348, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 56868130}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &56868133
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200352, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 56868130}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &73205877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,7 +1759,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &193375555
 MonoBehaviour:
@@ -2072,6 +2136,70 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300070, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &270878432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100394, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 270878433}
+  - 212: {fileID: 270878435}
+  - 61: {fileID: 270878434}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &270878433
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400394, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 270878432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 149
+--- !u!61 &270878434
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100334, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 270878432}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &270878435
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200394, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 270878432}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &283212207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,6 +2282,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
+--- !u!1 &291896249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100324, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 291896250}
+  - 212: {fileID: 291896251}
+  - 61: {fileID: 1222820011}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &291896250
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400324, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 291896249}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: 1.5001657, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 184
+--- !u!212 &291896251
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200324, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 291896249}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &298407131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,6 +2589,70 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &328031292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100358, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 328031293}
+  - 212: {fileID: 328031295}
+  - 61: {fileID: 328031294}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &328031293
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400358, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 328031292}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: 4.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 167
+--- !u!61 &328031294
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100358, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 328031292}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 1.1920929e-07, y: 0}
+--- !u!212 &328031295
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200358, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 328031292}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &328448413
 GameObject:
@@ -2793,6 +3037,70 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &390908853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100328, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 390908854}
+  - 212: {fileID: 390908856}
+  - 61: {fileID: 390908855}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &390908854
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400328, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 390908853}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: .500018895, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 182
+--- !u!61 &390908855
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100322, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 390908853}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &390908856
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200328, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 390908853}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &403094484
 GameObject:
@@ -3203,7 +3511,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &439373457
 MonoBehaviour:
@@ -3343,6 +3651,70 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &450263531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100330, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450263532}
+  - 212: {fileID: 450263534}
+  - 61: {fileID: 450263533}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450263532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400330, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 450263531}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: 1.50009131, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 181
+--- !u!61 &450263533
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100324, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 450263531}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: -2.98023224e-08, y: 0}
+--- !u!212 &450263534
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200330, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 450263531}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &454211956
 GameObject:
@@ -3931,7 +4303,7 @@ GameObject:
   - 114: {fileID: 513112554}
   - 61: {fileID: 513112553}
   m_Layer: 11
-  m_Name: Gold
+  m_Name: Gold5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3964,7 +4336,7 @@ MonoBehaviour:
   message: AddItem
   Item: Gold
   amount: 5
-  IsResource: 0
+  IsResource: 1
 --- !u!82 &513112555
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4043,7 +4415,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1548355657
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4059,6 +4431,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!1 &514829755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100316, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 514829756}
+  - 212: {fileID: 514829758}
+  - 61: {fileID: 514829757}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &514829756
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400316, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 514829755}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: 3.50016618, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 188
+--- !u!61 &514829757
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100340, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 514829755}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &514829758
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200316, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 514829755}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &534064587
 Prefab:
   m_ObjectHideFlags: 0
@@ -4103,6 +4539,134 @@ Prefab:
   m_RootGameObject: {fileID: 13968240}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &539331547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100386, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 539331548}
+  - 212: {fileID: 539331550}
+  - 61: {fileID: 539331549}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &539331548
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400386, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 539331547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 153
+--- !u!61 &539331549
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100366, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 539331547}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &539331550
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200386, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 539331547}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &544680824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100342, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 544680825}
+  - 212: {fileID: 544680827}
+  - 61: {fileID: 544680826}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &544680825
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400342, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 544680824}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: 4.50010443, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 175
+--- !u!61 &544680826
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100386, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 544680824}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: -1.1920929e-07, y: 0}
+--- !u!212 &544680827
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200342, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 544680824}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &547934521
 GameObject:
   m_ObjectHideFlags: 0
@@ -4615,6 +5179,70 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &620285980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100346, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 620285981}
+  - 212: {fileID: 620285983}
+  - 61: {fileID: 620285982}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &620285981
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400346, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 620285980}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: -2.50005126, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 173
+--- !u!61 &620285982
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100392, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 620285980}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &620285983
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200346, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 620285980}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &639427984
 GameObject:
   m_ObjectHideFlags: 0
@@ -4742,6 +5370,70 @@ SpriteRenderer:
   m_SortingLayerID: 1548355657
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300232, guid: f3cc27ecbbc829b45ada18cbaf4c2373, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &673469628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100318, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 673469629}
+  - 212: {fileID: 673469631}
+  - 61: {fileID: 673469630}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &673469629
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400318, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 673469628}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: 2.50010085, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 187
+--- !u!61 &673469630
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100342, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 673469628}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 5.96046448e-08, y: 0}
+--- !u!212 &673469631
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200318, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 673469628}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &674005981
 GameObject:
@@ -4915,6 +5607,198 @@ Prefab:
   m_RootGameObject: {fileID: 1128066027}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &693515397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100360, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 693515398}
+  - 212: {fileID: 693515400}
+  - 61: {fileID: 693515399}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &693515398
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400360, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 693515397}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: 2.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 166
+--- !u!61 &693515399
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100314, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 693515397}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 5.96046448e-08, y: 0}
+--- !u!212 &693515400
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200360, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 693515397}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &698686187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100322, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 698686188}
+  - 212: {fileID: 698686190}
+  - 61: {fileID: 698686189}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &698686188
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400322, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 698686187}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: -.500047624, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 185
+--- !u!61 &698686189
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100312, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 698686187}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: -1.49011612e-08, y: -2.38418579e-07}
+--- !u!212 &698686190
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200322, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 698686187}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &705592108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100392, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 705592109}
+  - 212: {fileID: 705592111}
+  - 61: {fileID: 705592110}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &705592109
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400392, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 705592108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 150
+--- !u!61 &705592110
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100332, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 705592108}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &705592111
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200392, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 705592108}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &723977202
 GameObject:
   m_ObjectHideFlags: 0
@@ -5068,7 +5952,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &725308915
 MonoBehaviour:
@@ -5273,6 +6157,134 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &751114121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100350, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 751114122}
+  - 212: {fileID: 751114124}
+  - 61: {fileID: 751114123}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &751114122
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400350, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 751114121}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: -5.50029993, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 171
+--- !u!61 &751114123
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100372, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 751114121}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &751114124
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200350, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 751114121}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &758522552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100338, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 758522553}
+  - 212: {fileID: 758522555}
+  - 61: {fileID: 758522554}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &758522553
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400338, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 758522552}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: 3.50008845, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 177
+--- !u!61 &758522554
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100370, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 758522552}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &758522555
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200338, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 758522552}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &766643407
 GameObject:
   m_ObjectHideFlags: 0
@@ -5426,7 +6438,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &768124474
 MonoBehaviour:
@@ -5640,9 +6652,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 780554854}
   - 212: {fileID: 780554856}
-  - 61: {fileID: 780554855}
-  m_Layer: 9
-  m_Name: WallInvisible
+  - 61: {fileID: 780554857}
+  m_Layer: 8
+  m_Name: DungeonWall_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5655,22 +6667,22 @@ Transform:
   m_PrefabInternal: {fileID: 1582865532}
   m_GameObject: {fileID: 780554853}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.91369772, y: -.0270950198, z: 0}
-  m_LocalScale: {x: 1, y: 40, z: 1}
+  m_LocalPosition: {x: 6.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
   m_Children: []
   m_Father: {fileID: 1819568450}
-  m_RootOrder: 147
+  m_RootOrder: 195
 --- !u!61 &780554855
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6100284, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
     type: 2}
   m_PrefabInternal: {fileID: 1582865532}
-  m_GameObject: {fileID: 780554853}
+  m_GameObject: {fileID: 1222410883}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .319999963, y: .319999963}
+  m_Size: {x: .320000082, y: .320000082}
   m_Center: {x: 0, y: 0}
 --- !u!212 &780554856
 SpriteRenderer:
@@ -5679,7 +6691,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1582865532}
   m_GameObject: {fileID: 780554853}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
@@ -5693,8 +6705,20 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Sprite: {fileID: 21300004, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &780554857
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100394, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 780554853}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &786464497
 GameObject:
   m_ObjectHideFlags: 0
@@ -6054,7 +7078,7 @@ GameObject:
   - 114: {fileID: 827917958}
   - 61: {fileID: 827917957}
   m_Layer: 11
-  m_Name: Gold
+  m_Name: Gold5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6087,7 +7111,7 @@ MonoBehaviour:
   message: AddItem
   Item: Gold
   amount: 5
-  IsResource: 0
+  IsResource: 1
 --- !u!82 &827917959
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6166,7 +7190,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1548355657
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6571,7 +7595,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &915293231
 MonoBehaviour:
@@ -7325,6 +8349,134 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1084845738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100396, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1084845739}
+  - 212: {fileID: 1084845741}
+  - 61: {fileID: 1084845740}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1084845739
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400396, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1084845738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 148
+--- !u!61 &1084845740
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100364, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1084845738}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1084845741
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200396, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1084845738}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1085679396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100378, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1085679397}
+  - 212: {fileID: 1085679399}
+  - 61: {fileID: 1085679398}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1085679397
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400378, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1085679396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 157
+--- !u!61 &1085679398
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100330, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1085679396}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1085679399
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200378, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1085679396}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1098274771
 GameObject:
   m_ObjectHideFlags: 0
@@ -7388,6 +8540,198 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1105543127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100384, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1105543128}
+  - 212: {fileID: 1105543130}
+  - 61: {fileID: 1105543129}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1105543128
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400384, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1105543127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 154
+--- !u!61 &1105543129
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100382, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1105543127}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1105543130
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200384, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1105543127}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1113470102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100370, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1113470103}
+  - 212: {fileID: 1113470105}
+  - 61: {fileID: 1113470104}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1113470103
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400370, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1113470102}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: -4.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 161
+--- !u!61 &1113470104
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100398, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1113470102}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 1.1920929e-07, y: -2.38418579e-07}
+--- !u!212 &1113470105
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200370, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1113470102}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1122135998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100320, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1122135999}
+  - 212: {fileID: 1122136001}
+  - 61: {fileID: 1122136000}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1122135999
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400320, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1122135998}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: -1.50013757, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 186
+--- !u!61 &1122136000
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100310, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1122135998}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &1122136001
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200320, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1122135998}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1124019904
 GameObject:
@@ -7466,7 +8810,7 @@ GameObject:
   - 114: {fileID: 1128066029}
   - 61: {fileID: 1128066028}
   m_Layer: 11
-  m_Name: Gold
+  m_Name: Gold5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7499,7 +8843,7 @@ MonoBehaviour:
   message: AddItem
   Item: Gold
   amount: 5
-  IsResource: 0
+  IsResource: 1
 --- !u!82 &1128066030
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7578,7 +8922,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1548355657
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8051,9 +9395,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1222410884}
   - 212: {fileID: 1222410886}
-  - 61: {fileID: 1222410885}
-  m_Layer: 9
-  m_Name: WallInvisible
+  - 61: {fileID: 780554855}
+  m_Layer: 8
+  m_Name: DungeonWall_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8065,23 +9409,23 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
   m_PrefabInternal: {fileID: 1582865532}
   m_GameObject: {fileID: 1222410883}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.176177084, y: -6.06931973, z: 0}
-  m_LocalScale: {x: 40, y: 2, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
   m_Children: []
   m_Father: {fileID: 1819568450}
-  m_RootOrder: 150
+  m_RootOrder: 198
 --- !u!61 &1222410885
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6100000, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
     type: 2}
   m_PrefabInternal: {fileID: 1582865532}
-  m_GameObject: {fileID: 1222410883}
+  m_GameObject: {fileID: 2126864456}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .319999963, y: .319999963}
+  m_Size: {x: .320000082, y: .320000082}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1222410886
 SpriteRenderer:
@@ -8090,7 +9434,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1582865532}
   m_GameObject: {fileID: 1222410883}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
@@ -8104,7 +9448,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Sprite: {fileID: 21300004, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1222820009
 GameObject:
@@ -8115,9 +9459,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1222820010}
   - 212: {fileID: 1222820012}
-  - 61: {fileID: 1222820011}
-  m_Layer: 9
-  m_Name: WallInvisible
+  - 61: {fileID: 1222820013}
+  m_Layer: 8
+  m_Name: DungeonWall_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8129,24 +9473,24 @@ Transform:
   m_PrefabParentObject: {fileID: 400002, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
   m_PrefabInternal: {fileID: 1582865532}
   m_GameObject: {fileID: 1222820009}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0112161636, y: 6.07985497, z: 0}
-  m_LocalScale: {x: 40, y: 2, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: -6.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
   m_Children: []
   m_Father: {fileID: 1819568450}
-  m_RootOrder: 149
+  m_RootOrder: 197
 --- !u!61 &1222820011
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6100002, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
     type: 2}
   m_PrefabInternal: {fileID: 1582865532}
-  m_GameObject: {fileID: 1222820009}
+  m_GameObject: {fileID: 291896249}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .319999963, y: .319999963}
-  m_Center: {x: 0, y: 0}
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 2.98023224e-08, y: 0}
 --- !u!212 &1222820012
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8154,7 +9498,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1582865532}
   m_GameObject: {fileID: 1222820009}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
@@ -8168,8 +9512,20 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Sprite: {fileID: 21300004, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &1222820013
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100388, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1222820009}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: -2.38418579e-07}
 --- !u!1 &1226076489
 GameObject:
   m_ObjectHideFlags: 0
@@ -8425,6 +9781,134 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1236001938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100306, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1236001939}
+  - 212: {fileID: 1236001941}
+  - 61: {fileID: 1236001940}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1236001939
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400306, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1236001938}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: -4.50017977, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 193
+--- !u!61 &1236001940
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100306, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1236001938}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: -1.1920929e-07, y: -2.38418579e-07}
+--- !u!212 &1236001941
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200306, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1236001938}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1245582807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100368, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1245582808}
+  - 212: {fileID: 1245582810}
+  - 61: {fileID: 1245582809}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1245582808
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400368, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1245582807}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: -1.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 162
+--- !u!61 &1245582809
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100350, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1245582807}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1245582810
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200368, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1245582807}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1247943092
 GameObject:
@@ -8682,6 +10166,70 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1265501106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100336, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1265501107}
+  - 212: {fileID: 1265501109}
+  - 61: {fileID: 1265501108}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1265501107
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400336, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1265501106}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: 2.50002789, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 178
+--- !u!61 &1265501108
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100368, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1265501106}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: -5.96046448e-08, y: 0}
+--- !u!212 &1265501109
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200336, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1265501106}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1268857169
 GameObject:
   m_ObjectHideFlags: 0
@@ -8810,6 +10358,70 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300068, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1289641913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100308, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1289641914}
+  - 212: {fileID: 1289641916}
+  - 61: {fileID: 1289641915}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1289641914
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400308, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1289641913}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: -2.50012565, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 192
+--- !u!61 &1289641915
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100308, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1289641913}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &1289641916
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200308, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1289641913}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1298219218
 GameObject:
   m_ObjectHideFlags: 0
@@ -8883,9 +10495,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1314932076}
   - 212: {fileID: 1314932078}
-  - 61: {fileID: 1314932077}
-  m_Layer: 9
-  m_Name: WallInvisible
+  - 61: {fileID: 1314932079}
+  m_Layer: 8
+  m_Name: DungeonWall_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8897,23 +10509,23 @@ Transform:
   m_PrefabParentObject: {fileID: 400004, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
   m_PrefabInternal: {fileID: 1582865532}
   m_GameObject: {fileID: 1314932075}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.88280058, y: .145811021, z: 0}
-  m_LocalScale: {x: 1, y: 40, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
   m_Children: []
   m_Father: {fileID: 1819568450}
-  m_RootOrder: 148
+  m_RootOrder: 196
 --- !u!61 &1314932077
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6100004, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
     type: 2}
   m_PrefabInternal: {fileID: 1582865532}
-  m_GameObject: {fileID: 1314932075}
+  m_GameObject: {fileID: 1660600010}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .319999963, y: .319999963}
+  m_Size: {x: .320000082, y: .320000082}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1314932078
 SpriteRenderer:
@@ -8922,7 +10534,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1582865532}
   m_GameObject: {fileID: 1314932075}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
@@ -8936,8 +10548,20 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Sprite: {fileID: 21300004, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &1314932079
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100376, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1314932075}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1315520162
 GameObject:
   m_ObjectHideFlags: 0
@@ -9184,7 +10808,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &1332551548
 MonoBehaviour:
@@ -9542,7 +11166,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &1356781274
 MonoBehaviour:
@@ -9836,7 +11460,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &1379650061
 MonoBehaviour:
@@ -10040,6 +11664,70 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300068, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1388999279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100380, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1388999280}
+  - 212: {fileID: 1388999282}
+  - 61: {fileID: 1388999281}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1388999280
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400380, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1388999279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 156
+--- !u!61 &1388999281
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100378, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1388999279}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1388999282
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200380, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1388999279}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1391019672
 GameObject:
@@ -10318,6 +12006,198 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300010, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1431362979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100376, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1431362980}
+  - 212: {fileID: 1431362982}
+  - 61: {fileID: 1431362981}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1431362980
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400376, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1431362979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 158
+--- !u!61 &1431362981
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100374, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1431362979}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1431362982
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200376, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1431362979}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1443971088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100362, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1443971089}
+  - 212: {fileID: 1443971091}
+  - 61: {fileID: 1443971090}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1443971089
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400362, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1443971088}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: 3.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 165
+--- !u!61 &1443971090
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100318, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1443971088}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 1.1920929e-07, y: -2.38418579e-07}
+--- !u!212 &1443971091
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200362, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1443971088}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1464966801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100356, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1464966802}
+  - 212: {fileID: 1464966804}
+  - 61: {fileID: 1464966803}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1464966802
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400356, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1464966801}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: 5.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 168
+--- !u!61 &1464966803
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100352, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1464966801}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 1.1920929e-07, y: 0}
+--- !u!212 &1464966804
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200356, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1464966801}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1472746173
 GameObject:
   m_ObjectHideFlags: 0
@@ -10445,6 +12325,134 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300068, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1482393596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100398, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1482393597}
+  - 212: {fileID: 1482393599}
+  - 61: {fileID: 1482393598}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482393597
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400398, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1482393596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 147
+--- !u!61 &1482393598
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100396, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1482393596}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1482393599
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200398, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1482393596}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1484747606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100388, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1484747607}
+  - 212: {fileID: 1484747609}
+  - 61: {fileID: 1484747608}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1484747607
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400388, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1484747606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 152
+--- !u!61 &1484747608
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100362, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1484747606}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1484747609
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200388, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1484747606}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1494781158
 GameObject:
@@ -10879,6 +12887,70 @@ Prefab:
   m_RootGameObject: {fileID: 1356781270}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1564915782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100312, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1564915783}
+  - 212: {fileID: 1564915785}
+  - 61: {fileID: 1564915784}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1564915783
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400312, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1564915782}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: 4.50020504, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 190
+--- !u!61 &1564915784
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100338, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1564915782}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &1564915785
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200312, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1564915782}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1569187470
 GameObject:
   m_ObjectHideFlags: 0
@@ -11414,6 +13486,10 @@ Prefab:
       propertyPath: NextLevel
       value: StoneDungeon-f
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 1a873389af98ccf4ea9d5dd5987d476a, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1a873389af98ccf4ea9d5dd5987d476a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1a873389af98ccf4ea9d5dd5987d476a, type: 2}
@@ -11597,6 +13673,58 @@ Prefab:
   m_RootGameObject: {fileID: 439373453}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1660600010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100326, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1660600011}
+  - 212: {fileID: 1660600012}
+  - 61: {fileID: 1314932077}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1660600011
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400326, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1660600010}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: .500044644, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 183
+--- !u!212 &1660600012
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200326, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1660600010}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1664949308
 GameObject:
   m_ObjectHideFlags: 0
@@ -11724,6 +13852,70 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1683405035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100390, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1683405036}
+  - 212: {fileID: 1683405038}
+  - 61: {fileID: 1683405037}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1683405036
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400390, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1683405035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 151
+--- !u!61 &1683405037
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100346, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1683405035}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1683405038
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200390, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1683405035}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1687560344
 GameObject:
@@ -11917,6 +14109,134 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1745445247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100344, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1745445248}
+  - 212: {fileID: 1745445250}
+  - 61: {fileID: 1745445249}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1745445248
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400344, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1745445247}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: -3.50009179, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 174
+--- !u!61 &1745445249
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100390, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1745445247}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1745445250
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200344, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1745445247}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1745676607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100374, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1745676608}
+  - 212: {fileID: 1745676610}
+  - 61: {fileID: 1745676609}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1745676608
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400374, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1745676607}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: -.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 159
+--- !u!61 &1745676609
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100356, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1745676607}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: -1.49011612e-08, y: 0}
+--- !u!212 &1745676610
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200374, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1745676607}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1747473403
 GameObject:
   m_ObjectHideFlags: 0
@@ -11980,6 +14300,134 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1756968791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100364, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1756968792}
+  - 212: {fileID: 1756968794}
+  - 61: {fileID: 1756968793}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1756968792
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400364, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1756968791}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: -2.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 164
+--- !u!61 &1756968793
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100320, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1756968791}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1756968794
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200364, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1756968791}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1767155568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100366, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1767155569}
+  - 212: {fileID: 1767155571}
+  - 61: {fileID: 1767155570}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1767155569
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400366, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1767155568}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: -3.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 163
+--- !u!61 &1767155570
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100354, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1767155568}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 1.1920929e-07, y: 0}
+--- !u!212 &1767155571
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200366, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1767155568}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1768462231
 GameObject:
@@ -12058,7 +14506,7 @@ GameObject:
   - 114: {fileID: 1770137451}
   - 61: {fileID: 1770137450}
   m_Layer: 11
-  m_Name: Gold
+  m_Name: Gold5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12091,7 +14539,7 @@ MonoBehaviour:
   message: AddItem
   Item: Gold
   amount: 5
-  IsResource: 0
+  IsResource: 1
 --- !u!82 &1770137452
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12170,7 +14618,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1548355657
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300462, guid: cdf248d1f91f0844facda0e71ed14943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12230,6 +14678,70 @@ Prefab:
   m_RootGameObject: {fileID: 500339425}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1772065538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100314, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1772065539}
+  - 212: {fileID: 1772065541}
+  - 61: {fileID: 1772065540}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1772065539
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400314, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1772065538}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000286, y: 5.50073624, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 189
+--- !u!61 &1772065540
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100344, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1772065538}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1772065541
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200314, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1772065538}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1781795147
 GameObject:
   m_ObjectHideFlags: 0
@@ -12519,6 +15031,70 @@ Prefab:
   m_RootGameObject: {fileID: 768124470}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1807091275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100304, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1807091276}
+  - 212: {fileID: 1807091278}
+  - 61: {fileID: 1807091277}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1807091276
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400304, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1807091275}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000286, y: -5.50073671, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 194
+--- !u!61 &1807091277
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100304, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1807091275}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: -1.1920929e-07, y: 0}
+--- !u!212 &1807091278
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200304, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1807091275}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1819568449
 GameObject:
   m_ObjectHideFlags: 0
@@ -12693,6 +15269,54 @@ Transform:
   - {fileID: 2004949086}
   - {fileID: 473869592}
   - {fileID: 1228061216}
+  - {fileID: 1482393597}
+  - {fileID: 1084845739}
+  - {fileID: 270878433}
+  - {fileID: 705592109}
+  - {fileID: 1683405036}
+  - {fileID: 1484747607}
+  - {fileID: 539331548}
+  - {fileID: 1105543128}
+  - {fileID: 2080300820}
+  - {fileID: 1388999280}
+  - {fileID: 1085679397}
+  - {fileID: 1431362980}
+  - {fileID: 1745676608}
+  - {fileID: 2029422964}
+  - {fileID: 1113470103}
+  - {fileID: 1245582808}
+  - {fileID: 1767155569}
+  - {fileID: 1756968792}
+  - {fileID: 1443971089}
+  - {fileID: 693515398}
+  - {fileID: 328031293}
+  - {fileID: 1464966802}
+  - {fileID: 2058901962}
+  - {fileID: 56868131}
+  - {fileID: 751114122}
+  - {fileID: 2071614923}
+  - {fileID: 620285981}
+  - {fileID: 1745445248}
+  - {fileID: 544680825}
+  - {fileID: 2126864457}
+  - {fileID: 758522553}
+  - {fileID: 1265501107}
+  - {fileID: 2047888397}
+  - {fileID: 2131130117}
+  - {fileID: 450263532}
+  - {fileID: 390908854}
+  - {fileID: 1660600011}
+  - {fileID: 291896250}
+  - {fileID: 698686188}
+  - {fileID: 1122135999}
+  - {fileID: 673469629}
+  - {fileID: 514829756}
+  - {fileID: 1772065539}
+  - {fileID: 1564915783}
+  - {fileID: 1900290273}
+  - {fileID: 1289641914}
+  - {fileID: 1236001939}
+  - {fileID: 1807091276}
   - {fileID: 780554854}
   - {fileID: 1314932076}
   - {fileID: 1222820010}
@@ -13117,6 +15741,70 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1900290272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100310, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1900290273}
+  - 212: {fileID: 1900290275}
+  - 61: {fileID: 1900290274}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1900290273
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400310, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1900290272}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: 6.50000095, y: -3.50019097, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 191
+--- !u!61 &1900290274
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100336, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1900290272}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &1900290275
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200310, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 1900290272}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1947806362
 GameObject:
@@ -13620,7 +16308,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .100000001, y: .100000001}
+  m_Size: {x: .300000012, y: .300000012}
   m_Center: {x: 0, y: 0}
 --- !u!114 &2024402141
 MonoBehaviour:
@@ -13697,6 +16385,198 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1391019673}
   m_RootOrder: 6
+--- !u!1 &2029422963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100372, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2029422964}
+  - 212: {fileID: 2029422966}
+  - 61: {fileID: 2029422965}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2029422964
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400372, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2029422963}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: -5.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 160
+--- !u!61 &2029422965
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100384, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2029422963}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &2029422966
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200372, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2029422963}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2047888396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100334, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2047888397}
+  - 212: {fileID: 2047888399}
+  - 61: {fileID: 2047888398}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2047888397
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400334, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2047888396}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: -1.50008702, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 179
+--- !u!61 &2047888398
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100328, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2047888396}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 0, y: -2.38418579e-07}
+--- !u!212 &2047888399
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200334, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2047888396}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2058901961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100354, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2058901962}
+  - 212: {fileID: 2058901964}
+  - 61: {fileID: 2058901963}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2058901962
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400354, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2058901961}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
+  m_LocalPosition: {x: 1.5, y: -6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 169
+--- !u!61 &2058901963
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100316, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2058901961}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: -2.98023224e-08, y: 0}
+--- !u!212 &2058901964
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200354, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2058901961}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2059613102
 GameObject:
   m_ObjectHideFlags: 0
@@ -13760,6 +16640,134 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: b30e684802595c742b3181a0be98778c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2071614922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100348, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2071614923}
+  - 212: {fileID: 2071614925}
+  - 61: {fileID: 2071614924}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2071614923
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400348, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2071614922}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: -4.50008059, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 172
+--- !u!61 &2071614924
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100360, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2071614922}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 1.1920929e-07, y: 0}
+--- !u!212 &2071614925
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200348, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2071614922}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2080300819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100382, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2080300820}
+  - 212: {fileID: 2080300822}
+  - 61: {fileID: 2080300821}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2080300820
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400382, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2080300819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 6.5, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 155
+--- !u!61 &2080300821
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100380, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2080300819}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .319999963, y: .319999963}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &2080300822
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200382, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2080300819}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2092242364
 GameObject:
@@ -14046,3 +17054,119 @@ Prefab:
   m_RootGameObject: {fileID: 1770137449}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &2126864456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100340, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2126864457}
+  - 212: {fileID: 2126864458}
+  - 61: {fileID: 1222410885}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2126864457
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400340, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2126864456}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: 5.50032473, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 176
+--- !u!212 &2126864458
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200340, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2126864456}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2131130116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100332, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2131130117}
+  - 212: {fileID: 2131130119}
+  - 61: {fileID: 2131130118}
+  m_Layer: 8
+  m_Name: DungeonWall_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2131130117
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400332, guid: e79f34b02e8f5ff4396c5ddb4d6e096d, type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2131130116}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: -6.5, y: -.500022829, z: 0}
+  m_LocalScale: {x: 3.13000011, y: 3.13000011, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1819568450}
+  m_RootOrder: 180
+--- !u!61 &2131130118
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100326, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2131130116}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .320000082, y: .320000082}
+  m_Center: {x: 1.49011612e-08, y: -2.38418579e-07}
+--- !u!212 &2131130119
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200332, guid: e79f34b02e8f5ff4396c5ddb4d6e096d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582865532}
+  m_GameObject: {fileID: 2131130116}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300006, guid: d50bd57f5cc8c8644a407c7d09fe497a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
