@@ -40,6 +40,8 @@ public class PlayerInput : MonoBehaviour
     string inventoryHashKey;
     string resourcesHashKey;
 
+    NPCController activeNPCDialog;
+
     public List<Pickup> Inventory
     {
         get { return inventory; }
@@ -83,9 +85,48 @@ public class PlayerInput : MonoBehaviour
         amountToMove = Vector2.zero;
     }
 
+    bool setNpcAction = false;
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (activeNPCDialog != null)
+        {
+            if (activeNPCDialog.DialogEnabled())
+                return;
+        }
+
+        //Get input for starting NPC dialogs:
+        if (setNpcAction)
+        {
+            setNpcAction = false;
+            activeNPCDialog.Action();
+        }
+        else if (Input.GetButtonUp("Fire1"))
+        {
+            GameObject[] npcs = GameObject.FindGameObjectsWithTag("NPC");
+
+            //get closes npc:
+            if (npcs.Length > 0)
+            {
+                GameObject closestNPC = null;
+                float closest = 2.00f; // min distance
+                foreach (GameObject npc in npcs)
+                {
+                    float distance = Vector3.Distance(transform.position, npc.transform.position);
+                    if (distance < closest)
+                    {
+                        closestNPC = npc;
+                        closest = distance;
+                    }
+                }
+                if (closestNPC != null)
+                {
+                    activeNPCDialog = closestNPC.GetComponent<NPCController>();
+                    setNpcAction = true;
+                }
+            }
+        }
+
         targetSpeed = Vector2.zero;
 
         targetSpeed.x = Input.GetAxisRaw("Horizontal");
@@ -180,7 +221,8 @@ public class PlayerInput : MonoBehaviour
         if (!animationActive)
             return;
 
-        if (currentSpeed.x > minAnimationSpeed) //if the player is moving to the right
+        bool inDialog = (activeNPCDialog != null && activeNPCDialog.DialogEnabled());
+        if (currentSpeed.x > minAnimationSpeed && !inDialog) //if the player is moving to the right
         {
             int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
             index = index % walkingUpSprites.Length;
@@ -188,7 +230,7 @@ public class PlayerInput : MonoBehaviour
             activeSide = 2;
             direction = Direction.East;
         }
-        else if (-currentSpeed.x > minAnimationSpeed) // if the player is moving to the left
+        else if (-currentSpeed.x > minAnimationSpeed && !inDialog) // if the player is moving to the left
         {
             int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
             index = index % walkingUpSprites.Length;
@@ -196,7 +238,7 @@ public class PlayerInput : MonoBehaviour
             activeSide = 3;
             direction = Direction.West;
         }
-        else if (currentSpeed.y > minAnimationSpeed) // if the player is moving up
+        else if (currentSpeed.y > minAnimationSpeed && !inDialog) // if the player is moving up
         {
             int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
             index = index % walkingUpSprites.Length;
@@ -204,7 +246,7 @@ public class PlayerInput : MonoBehaviour
             activeSide = 1;
             direction = Direction.North;
         }
-        else if (-currentSpeed.y > minAnimationSpeed) //if the player is moving down
+        else if (-currentSpeed.y > minAnimationSpeed && !inDialog) //if the player is moving down
         {
             int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
             index = index % walkingUpSprites.Length;
